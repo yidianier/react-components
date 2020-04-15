@@ -4,7 +4,6 @@ import { clearFixMixin, inlineBlockWithVerticalMixin } from 'src/style';
 import Button from 'src/components/Button';
 import Notice from 'src/components/Notice';
 import Checkbox from 'src/components/Checkbox';
-import { Col } from 'src/components/Grid';
 import Icon from 'src/components/Icon';
 import config from 'src/config';
 import addDefaultThemeProps from 'src/components/ThemeProvider/addDefaultThemeProps';
@@ -22,32 +21,32 @@ export const SortIcon = styled(Icon)(
 export const selectIconCellCls = prefixCls + '-row-select-icon-cell';
 export const selectIconHeaderCls = prefixCls + '-select-icon-th';
 
+export const placeholderCellCls = prefixCls + '-placeholder-cell';
+export const placeholderHeaderCls = prefixCls + '-placeholder-th';
+
 const expandedRowContentCls = prefixCls + '-expanded-row-content';
 export const ExpandedRowContent = styled.div.attrs({
     className: expandedRowContentCls
 })(
-    ({ theme: { colorList } }) => css`
-        border-bottom: 1px solid ${colorList.secondary5};
-        background: ${colorList.primary6};
-        color: ${colorList.secondary2};
+    ({ theme: { designTokens: DT } }) => css`
+        color: ${DT.T_COLOR_TEXT_DEFAULT_LIGHT};
+        border-bottom: ${DT.T_LINE_WIDTH_BASE} solid ${DT.T_COLOR_LINE_DEFAULT_LIGHT};
+        background: ${DT.T_TABLE_ROW_COLOR_BG_DEFAULT};
         padding: 12px;
         line-height: 20px;
     `
 );
 
 export const TableWrap = styled.div(
-    ({ theme: { colorMap, colorList, fontSize }, zebraCrossing }) => css`
+    ({ theme: { designTokens: DT }, zebraCrossing }) => css`
     ${clearFixMixin};
     padding: 15px;
+    color: ${DT.T_COLOR_TEXT_DEFAULT_DARK};
+    border-radius: ${DT.T_CORNER_SM};
+    background: ${DT.T_COLOR_BG_DEFAULT_NORMAL};
+    font-size: ${DT.T_TYPO_FONT_SIZE_1};
 
     .${prefixCls} {
-        border-radius: 2px;
-        background-color: ${colorMap.default.background};
-
-        &-body {
-            background-color: ${colorMap.default.background};
-        }
-
         &-scroll table {
             min-width: 100%;
         }
@@ -61,7 +60,6 @@ export const TableWrap = styled.div(
             cursor: pointer;
         }
         table {
-            font-size: ${fontSize};
             border-collapse: separate;
             border-spacing: 0;
             width: 100%;
@@ -78,7 +76,7 @@ export const TableWrap = styled.div(
             margin: 40px auto;
         }
         &-reset-link {
-            color: ${colorMap.active.text};
+            color: ${DT.T_COLOR_TEXT_PRIMARY_DEFAULT};
             cursor: pointer;
         }
         &-fixed-left,
@@ -86,7 +84,7 @@ export const TableWrap = styled.div(
             position: absolute;
             top: 0;
             overflow: hidden;
-            background: ${colorMap.default.background};
+            background: ${DT.T_COLOR_BG_DEFAULT_NORMAL};
 
             table {
                 width: auto;
@@ -94,32 +92,34 @@ export const TableWrap = styled.div(
         }
         &-fixed-left {
             left: 0;
-            box-shadow: 8px 0px 6px -6px rgba(162, 166, 191, 0.3);
+            box-shadow: ${DT.T_SHADOW_BLOCK_RIGHT_SM};
         }
         &-fixed-right {
             right: 0;
-            box-shadow: -8px 0px 6px -6px rgba(162, 166, 191, 0.3);
+            box-shadow: ${DT.T_SHADOW_BLOCK_LEFT_SM};
         }
         &-row-expand-icon {
-            border: 1px solid ${colorMap.default.border};
+            color: ${DT.T_COLOR_TEXT_DEFAULT_LIGHT};
+            border: ${DT.T_LINE_WIDTH_BASE} solid ${DT.T_COLOR_LINE_DEFAULT_LIGHT};
             ${inlineBlockWithVerticalMixin};
             width: 18px;
             height: 18px;
             line-height: 18px;
             text-align: center;
-            color: ${colorList.secondary1};
             cursor: pointer;
-
             &-cell {
                 width: 20px;
             }
-
-            &:before {
-                content: '+';
+            :hover {
+                color: ${DT.T_COLOR_TEXT_PRIMARY_HOVER};
+                border-color: ${DT.T_COLOR_LINE_PRIMARY_HOVER}
             }
         }
         &-expand-icon-th {
             width: 20px;
+        }
+        &-row-expand-icon.${prefixCls}-row-collapsed:before {
+            content: '+';
         }
         &-row-expand-icon.${prefixCls}-row-expanded:before {
             content: '-';
@@ -169,8 +169,8 @@ export const TableWrap = styled.div(
         &-thead > tr > th {
             position: relative;
             vertical-align: middle;
-            border-bottom: 1px solid ${colorList.secondary4};
-            color: #6b798e;
+            border-bottom: ${DT.T_LINE_WIDTH_BASE} solid ${DT.T_COLOR_LINE_DEFAULT_DARK};
+            color: ${DT.T_COLOR_TEXT_DEFAULT_LIGHT};
             padding: 12px;
             line-height: 22px;
             text-align: left;
@@ -178,22 +178,53 @@ export const TableWrap = styled.div(
             &.${prefixCls}-expand-icon-th,
             &.${selectIconHeaderCls} {
                 border-color: transparent;
+                padding-left: 0;
+            }
+            &.${placeholderHeaderCls} {
+                padding: 0px;
+                font-size: 0px;
             }
         }
         &-row > td {
             position: relative;
             vertical-align: middle;
-            border-bottom: 1px solid ${colorList.secondary5};
-            color: #0a1633;
+            border-bottom: ${DT.T_LINE_WIDTH_BASE} solid ${DT.T_COLOR_LINE_DEFAULT_LIGHT};
             padding: 12px;
             line-height: 22px;
             text-align: left;
             &.${prefixCls}-row-expand-icon-cell,
             &.${selectIconCellCls} {
                 border-color: transparent;
+                background: transparent;
+                padding-left: 0;
+            }
+            &.${placeholderCellCls} {
+                padding: 0;
+                font-size: 0;
             }
         }
+        &-row-level-1 > td,
+        &-row-level-2 > td,
+        &-row-level-3 > td,
+        &-row-level-4 > td,
+        &-row-level-5 > td {
+            background: ${DT.T_TABLE_ROW_COLOR_BG_DEFAULT};
 
+            &.${prefixCls}-row-expand-icon-cell .${prefixCls}-row-spaced {
+                visibility: visible;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 10px;
+                width: 1px;
+                height: 100%;
+                background: ${DT.T_COLOR_LINE_DEFAULT_LIGHT};
+                padding: 0;
+                border: none;
+                border-bottom: ${DT.T_LINE_WIDTH_BASE} solid ${DT.T_COLOR_LINE_DEFAULT_LIGHT};
+                cursor: default;
+            }
+        }
         &-fixed-header .${prefixCls}-scroll .${prefixCls}-header {
             overflow: scroll;
         }
@@ -201,16 +232,16 @@ export const TableWrap = styled.div(
             margin-bottom: 4px;
         }
         &-tip-wrap {
-            border-bottom: 1px solid ${colorMap.default.border};
+            border-bottom: ${DT.T_LINE_WIDTH_BASE} solid ${DT.T_COLOR_LINE_DEFAULT_LIGHT};
         }
         &-fixed-left .${prefixCls}-tip-wrap, &-fixed-right .${prefixCls}-tip-wrap {
             display: none;
         }
 
         table > tbody > .${prefixCls}-row-hover > td, table > tbody > .${prefixCls}-row:hover > td {
-            background-color: ${colorMap.active.background};
+            background: ${DT.T_TABLE_ROW_COLOR_BG_HOVER};
             &.${prefixCls}-row-expand-icon-cell, &.${selectIconCellCls} {
-                background-color: unset;
+                background: unset;
             }
         }
 
@@ -228,9 +259,9 @@ export const TableWrap = styled.div(
         ${zebraCrossing &&
             css`
                 &-row:nth-child(odd) > td {
-                    background-color: #f7f9fc;
+                    background: ${DT.T_TABLE_ROW_COLOR_BG_DEFAULT};
                     &.${prefixCls}-row-expand-icon-cell, &.${selectIconCellCls} {
-                        background-color: unset;
+                        background: unset;
                     }
                 }
             `};
@@ -248,7 +279,7 @@ export const ColumnConfigWrap = styled.span`
 `;
 
 export const ColumnConfigButtonWrap = styled(Button)`
-    border-color: ${({ theme: { colorMap } }) => colorMap.default.border};
+    /* empty */
 `;
 
 export const ColumnConfigModalNotice = styled(Notice)`
@@ -263,13 +294,8 @@ export const ColumnConfigModalCheckbox = styled(Checkbox)`
     padding: 12px 0;
 `;
 
-export const ColumnConfigModalSplitLine = styled(Col)`
-    height: 1px;
-    background: ${({ theme: { colorMap } }) => colorMap.default.background};
-`;
-
 export const ActionButton = styled(Button)`
     margin-right: 4px;
 `;
 
-addDefaultThemeProps(TableWrap, ColumnConfigButtonWrap, ColumnConfigModalSplitLine, SortIcon, ExpandedRowContent);
+addDefaultThemeProps(TableWrap, ColumnConfigButtonWrap, SortIcon, ExpandedRowContent);

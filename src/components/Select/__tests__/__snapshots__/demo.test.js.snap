@@ -6,11 +6,79 @@ exports[`Select demo -- disabled 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2.c2 {
+  border-color: #d9d9d9;
+  background: #f7f7f7;
+  color: #cccccc;
+  cursor: not-allowed;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: none;
+}
+
+.c6 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c6:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -23,60 +91,21 @@ exports[`Select demo -- disabled 1`] = `
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
+  color: #cccccc;
   pointer-events: none;
-  color: #bbb;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c0 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
 }
 
 .c5 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -88,9 +117,10 @@ exports[`Select demo -- disabled 1`] = `
       disabled=""
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border uc-fe-button-disabled c2"
           disabled=""
+          type="button"
         >
           <div>
             1
@@ -98,7 +128,7 @@ exports[`Select demo -- disabled 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -109,8 +139,9 @@ exports[`Select demo -- disabled 1`] = `
       class="c5"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c6"
+          type="button"
         >
           <div>
             1
@@ -118,7 +149,7 @@ exports[`Select demo -- disabled 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -131,11 +162,39 @@ exports[`Select demo -- group 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -145,50 +204,13 @@ exports[`Select demo -- group 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -196,8 +218,9 @@ exports[`Select demo -- group 1`] = `
     class="c0"
   >
     <div>
-      <div
-        class="c1 c2"
+      <button
+        class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+        type="button"
       >
         <div>
           2
@@ -205,7 +228,7 @@ exports[`Select demo -- group 1`] = `
         <i
           class="uc-fe-icon icon__down c3 c4"
         />
-      </div>
+      </button>
     </div>
   </div>
 </div>
@@ -217,11 +240,39 @@ exports[`Select demo -- multiple 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -231,50 +282,13 @@ exports[`Select demo -- multiple 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -282,8 +296,9 @@ exports[`Select demo -- multiple 1`] = `
     class="c0"
   >
     <div>
-      <div
-        class="c1 c2"
+      <button
+        class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+        type="button"
       >
         <div>
           已选择 2 项
@@ -291,7 +306,7 @@ exports[`Select demo -- multiple 1`] = `
         <i
           class="uc-fe-icon icon__down c3 c4"
         />
-      </div>
+      </button>
     </div>
   </div>
 </div>
@@ -303,11 +318,39 @@ exports[`Select demo -- popoverProps 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -317,50 +360,13 @@ exports[`Select demo -- popoverProps 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -371,8 +377,9 @@ exports[`Select demo -- popoverProps 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -380,7 +387,7 @@ exports[`Select demo -- popoverProps 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -391,8 +398,9 @@ exports[`Select demo -- popoverProps 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -400,7 +408,7 @@ exports[`Select demo -- popoverProps 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -411,8 +419,9 @@ exports[`Select demo -- popoverProps 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -420,7 +429,7 @@ exports[`Select demo -- popoverProps 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -431,8 +440,9 @@ exports[`Select demo -- popoverProps 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -440,7 +450,7 @@ exports[`Select demo -- popoverProps 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -453,11 +463,39 @@ exports[`Select demo -- renderContent 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -467,50 +505,13 @@ exports[`Select demo -- renderContent 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -521,8 +522,9 @@ exports[`Select demo -- renderContent 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             <span
@@ -534,7 +536,7 @@ exports[`Select demo -- renderContent 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -563,44 +565,26 @@ exports[`Select demo -- renderSelector 1`] = `
   height: 28px;
   padding: 0 8px;
   color: #0a1633;
-  background: #fff;
-  border-color: #c3cad9;
+  background: #ffffff;
   border: none;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
   transition: all .22s cubic-bezier(.4,0,.2,1);
 }
 
 .c1:hover {
-  color: #3555f6;
-  background: #fff;
-  border-color: #4683e6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c3 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c3:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -632,11 +616,39 @@ exports[`Select demo -- search 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -646,50 +658,13 @@ exports[`Select demo -- search 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -700,8 +675,9 @@ exports[`Select demo -- search 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -709,7 +685,7 @@ exports[`Select demo -- search 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -720,8 +696,9 @@ exports[`Select demo -- search 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -729,7 +706,7 @@ exports[`Select demo -- search 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -741,13 +718,43 @@ exports[`Select demo -- select 1`] = `
   vertical-align: baseline;
 }
 
+.c28 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c28:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
 .c11 {
   margin-right: 8px;
   font-size: 14px;
 }
 
 .c9 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -755,10 +762,22 @@ exports[`Select demo -- select 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+}
+
+.c9 .c10 {
+  color: #c3cad9;
+}
+
+.c9:hover {
+  color: #0a1633;
+}
+
+.c9:hover .c10 {
+  color: #3357df;
 }
 
 .c13 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -766,10 +785,15 @@ exports[`Select demo -- select 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+  color: #0a1633;
 }
 
 .c13 .c10 {
-  color: #3555f6;
+  color: #c3cad9;
+}
+
+.c13 .c10 {
+  color: #3860f4;
 }
 
 .c7 {
@@ -778,39 +802,39 @@ exports[`Select demo -- select 1`] = `
 }
 
 .c7 .c8,
-.c7 .style__RadioTagWrap-sc-25j3mq-3 {
+.c7 .sc-htpNat {
   margin-right: 8px;
   margin-bottom: 8px;
 }
 
 .c7 .c8:last-child,
-.c7 .style__RadioTagWrap-sc-25j3mq-3:last-child {
+.c7 .sc-htpNat:last-child {
   margin-right: 0;
 }
 
-.c7 .c32 {
+.c7 .c31 {
   margin-right: 12px;
   margin-bottom: 8px;
 }
 
-.c7 .c32:last-child {
+.c7 .c31:last-child {
   margin-right: 0;
 }
 
-.c7 .c33+.c33 {
+.c7 .c32+.c32 {
   margin-left: -1px;
 }
 
-.c7 .c31 {
+.c7 .c30 {
   margin-right: -1px;
   margin-bottom: 8px;
 }
 
-.c7 .c31:first-child {
+.c7 .c30:first-child {
   border-radius: 2px 0 0 2px;
 }
 
-.c7 .c31:last-child {
+.c7 .c30:last-child {
   border-radius: 0 2px 2px 0;
   margin-right: 0;
 }
@@ -826,11 +850,11 @@ exports[`Select demo -- select 1`] = `
   vertical-align: middle;
   box-sizing: border-box;
   border-radius: 2px;
-  color: #0a1633;
-  border: 1px solid #dfe0f1;
-  background: #fafafc;
   height: 28px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
 }
@@ -855,8 +879,9 @@ exports[`Select demo -- select 1`] = `
 }
 
 .c14:hover {
+  color: #0a1633;
   border-color: #c3cad9;
-  background-color: #f6f6fb;
+  background: #fafafc;
 }
 
 .c14 input {
@@ -865,27 +890,29 @@ exports[`Select demo -- select 1`] = `
 }
 
 .c14 input::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 input::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 input:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 input::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
-.c28 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
+.c27 {
   padding-right: 28px;
-  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
 }
 
 .c29 {
@@ -895,50 +922,13 @@ exports[`Select demo -- select 1`] = `
   margin-top: -6px;
 }
 
-.c30 .c27 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c30 .c27:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c30 .c27 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c26 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c26 .c27 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c26 .c27:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 .c18 {
@@ -984,14 +974,13 @@ exports[`Select demo -- select 1`] = `
 .c16 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -1001,27 +990,31 @@ exports[`Select demo -- select 1`] = `
 }
 
 .c16:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c16:hover .c22 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c16 .c22 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c16 .c24 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c16 .c17 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c16 .c19,
@@ -1348,8 +1341,9 @@ exports[`Select demo -- select 1`] = `
       placeholder="placeholder"
     >
       <div>
-        <div
-          class="c27 c28"
+        <button
+          class="c27 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c28"
+          type="button"
         >
           <div>
             placeholder
@@ -1357,7 +1351,7 @@ exports[`Select demo -- select 1`] = `
           <i
             class="uc-fe-icon icon__down c29 c12"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -1370,11 +1364,39 @@ exports[`Select demo -- showSelectAll 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -1384,50 +1406,13 @@ exports[`Select demo -- showSelectAll 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -1438,8 +1423,9 @@ exports[`Select demo -- showSelectAll 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             请选择
@@ -1447,7 +1433,7 @@ exports[`Select demo -- showSelectAll 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -1459,12 +1445,100 @@ exports[`Select demo -- size 1`] = `
   vertical-align: baseline;
 }
 
-.c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+.c5 {
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c5:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c6 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  padding: 0 12px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c6:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -1474,100 +1548,13 @@ exports[`Select demo -- size 1`] = `
   margin-top: -6px;
 }
 
-.c7 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c7 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c7 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
-.c5 {
-  box-sizing: border-box;
-  position: relative;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 12px;
-  color: #0a1633;
-  background-color: #fff;
-}
-
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 24px;
-  line-height: 24px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c6 {
-  box-sizing: border-box;
-  position: relative;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 12px;
-  color: #0a1633;
-  background-color: #fff;
-}
-
-.c6 .c1 {
-  height: 32px;
-  line-height: 32px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c6 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -1578,8 +1565,9 @@ exports[`Select demo -- size 1`] = `
       class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-sm uc-fe-button-styletype-border c2"
+          type="button"
         >
           <div>
             1
@@ -1587,7 +1575,7 @@ exports[`Select demo -- size 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -1595,11 +1583,12 @@ exports[`Select demo -- size 1`] = `
     class="demo-wrap"
   >
     <div
-      class="c5"
+      class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c5"
+          type="button"
         >
           <div>
             1
@@ -1607,7 +1596,7 @@ exports[`Select demo -- size 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -1615,11 +1604,12 @@ exports[`Select demo -- size 1`] = `
     class="demo-wrap"
   >
     <div
-      class="c6"
+      class="c0"
     >
       <div>
-        <div
-          class="c1 c2"
+        <button
+          class="c1 uc-fe-button uc-fe-button-size-lg uc-fe-button-styletype-border c6"
+          type="button"
         >
           <div>
             1
@@ -1627,7 +1617,7 @@ exports[`Select demo -- size 1`] = `
           <i
             class="uc-fe-icon icon__down c3 c4"
           />
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -1640,11 +1630,39 @@ exports[`Select demo -- uncontrolled 1`] = `
 }
 
 .c2 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c2:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c1 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c3 {
@@ -1654,78 +1672,13 @@ exports[`Select demo -- uncontrolled 1`] = `
   margin-top: -6px;
 }
 
-.c5 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c5 .c1 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c0 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
-}
-
-.c0 .c1 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c0 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c6 .c1 {
-  height: 24px;
-  line-height: 24px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c6 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c7 .c1 {
-  height: 32px;
-  line-height: 32px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c7 .c1:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
 }
 
 <div>
@@ -1733,8 +1686,9 @@ exports[`Select demo -- uncontrolled 1`] = `
     class="c0"
   >
     <div>
-      <div
-        class="c1 c2"
+      <button
+        class="c1 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c2"
+        type="button"
       >
         <div>
           1
@@ -1742,7 +1696,7 @@ exports[`Select demo -- uncontrolled 1`] = `
         <i
           class="uc-fe-icon icon__down c3 c4"
         />
-      </div>
+      </button>
     </div>
   </div>
 </div>

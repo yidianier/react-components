@@ -23,13 +23,18 @@ exports[`NumberInput demo -- computeValidNumber 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -38,9 +43,9 @@ exports[`NumberInput demo -- computeValidNumber 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -53,19 +58,23 @@ exports[`NumberInput demo -- computeValidNumber 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -73,7 +82,7 @@ exports[`NumberInput demo -- computeValidNumber 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -101,7 +110,7 @@ exports[`NumberInput demo -- computeValidNumber 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -113,7 +122,7 @@ exports[`NumberInput demo -- computeValidNumber 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 <div>
@@ -176,13 +185,18 @@ exports[`NumberInput demo -- disabled 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c10:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c2 {
@@ -191,16 +205,22 @@ exports[`NumberInput demo -- disabled 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
   cursor: not-allowed;
   pointer-events: none;
-  color: #bbb;
+  color: #cccccc;
+  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c9 {
@@ -209,9 +229,9 @@ exports[`NumberInput demo -- disabled 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -224,19 +244,23 @@ exports[`NumberInput demo -- disabled 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9:hover {
@@ -244,7 +268,7 @@ exports[`NumberInput demo -- disabled 1`] = `
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -272,7 +296,7 @@ exports[`NumberInput demo -- disabled 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -284,7 +308,7 @@ exports[`NumberInput demo -- disabled 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c0 {
@@ -293,15 +317,15 @@ exports[`NumberInput demo -- disabled 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   pointer-events: none;
-  color: #bbb;
+  color: #cccccc;
   -webkit-text-fill-color: currentcolor;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
 }
 
 .c0 .c7 {
@@ -313,19 +337,23 @@ exports[`NumberInput demo -- disabled 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -333,7 +361,7 @@ exports[`NumberInput demo -- disabled 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -365,7 +393,7 @@ exports[`NumberInput demo -- disabled 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -377,7 +405,7 @@ exports[`NumberInput demo -- disabled 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 <div>
@@ -485,13 +513,18 @@ exports[`NumberInput demo -- formatter 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -500,9 +533,9 @@ exports[`NumberInput demo -- formatter 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -515,19 +548,23 @@ exports[`NumberInput demo -- formatter 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -535,7 +572,7 @@ exports[`NumberInput demo -- formatter 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -563,7 +600,7 @@ exports[`NumberInput demo -- formatter 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -575,7 +612,7 @@ exports[`NumberInput demo -- formatter 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -587,23 +624,27 @@ exports[`NumberInput demo -- formatter 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -635,7 +676,7 @@ exports[`NumberInput demo -- formatter 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -647,7 +688,7 @@ exports[`NumberInput demo -- formatter 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 <div>
@@ -752,13 +793,18 @@ exports[`NumberInput demo -- hideHandler 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c7:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c5 {
@@ -767,9 +813,9 @@ exports[`NumberInput demo -- hideHandler 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -782,19 +828,23 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 }
 
 .c5 .c3::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c5 .c3::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c5 .c3:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c5 .c3::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c5:hover {
@@ -802,7 +852,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 }
 
 .c5 .c1 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -830,7 +880,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 
 .c5 .c6:hover,
 .c5 .c9:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c5 .c6 {
@@ -842,7 +892,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 .c5 .c9 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c3 {
@@ -854,23 +904,27 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 }
 
 .c10 .c3::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c3::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c3:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c3::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c1 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -902,7 +956,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 
 .c10 .c6:hover,
 .c10 .c9:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c6 {
@@ -914,7 +968,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 .c10 .c9 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c0 {
@@ -923,12 +977,13 @@ exports[`NumberInput demo -- hideHandler 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
   padding-right: 0;
+  border-right-width: 1px;
 }
 
 .c0 .c3 {
@@ -939,19 +994,23 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 }
 
 .c0 .c3::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c3::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c3:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c3::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -959,7 +1018,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 }
 
 .c0 .c1 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -987,7 +1046,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 
 .c0 .c6:hover,
 .c0 .c9:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c6 {
@@ -999,7 +1058,7 @@ exports[`NumberInput demo -- hideHandler 1`] = `
 .c0 .c9 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 <div>
@@ -1085,13 +1144,18 @@ exports[`NumberInput demo -- inputStyle 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -1100,9 +1164,9 @@ exports[`NumberInput demo -- inputStyle 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -1115,19 +1179,23 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -1135,7 +1203,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1163,7 +1231,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -1175,7 +1243,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -1187,23 +1255,27 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1235,7 +1307,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c11 .c1 {
@@ -1247,7 +1319,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 .c11 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c12 .c7 {
@@ -1258,23 +1330,27 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1302,7 +1378,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c12 .c1 {
@@ -1314,7 +1390,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 .c12 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 {
@@ -1323,7 +1399,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -1336,19 +1412,23 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7 {
@@ -1360,11 +1440,10 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c9 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -1382,24 +1461,22 @@ exports[`NumberInput demo -- inputStyle 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c9 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c9 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c10 {
@@ -1408,7 +1485,7 @@ exports[`NumberInput demo -- inputStyle 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -1421,36 +1498,40 @@ exports[`NumberInput demo -- inputStyle 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c10 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c10 .c1,
@@ -1459,24 +1540,21 @@ exports[`NumberInput demo -- inputStyle 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c10 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c10 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c10 .c13 {
@@ -1624,13 +1702,18 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -1639,9 +1722,9 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -1654,19 +1737,23 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -1674,7 +1761,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1702,7 +1789,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -1714,7 +1801,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -1726,23 +1813,27 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1774,7 +1865,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -1786,7 +1877,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -1797,23 +1888,27 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1841,7 +1936,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -1853,7 +1948,7 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -1864,19 +1959,23 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -1888,11 +1987,10 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -1910,24 +2008,22 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -1938,36 +2034,40 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -1976,24 +2076,21 @@ exports[`NumberInput demo -- maxAndMin 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -2098,13 +2195,18 @@ exports[`NumberInput demo -- numberInput 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c26:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c24 {
@@ -2113,9 +2215,9 @@ exports[`NumberInput demo -- numberInput 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -2128,19 +2230,23 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c24 .c30::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24 .c30::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24 .c30:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24 .c30::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24:hover {
@@ -2148,7 +2254,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c24 .c28 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -2176,7 +2282,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 
 .c24 .c25:hover,
 .c24 .c27:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c24 .c25 {
@@ -2188,7 +2294,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 .c24 .c27 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c34 .c30 {
@@ -2200,23 +2306,27 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c34 .c30::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c34 .c30::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c34 .c30:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c34 .c30::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c34 .c28 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -2248,7 +2358,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 
 .c34 .c25:hover,
 .c34 .c27:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c34 .c25 {
@@ -2260,7 +2370,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 .c34 .c27 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c35 .c30 {
@@ -2271,23 +2381,27 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c35 .c30::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c35 .c30::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c35 .c30:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c35 .c30::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c35 .c28 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -2315,7 +2429,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 
 .c35 .c25:hover,
 .c35 .c27:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c35 .c25 {
@@ -2327,7 +2441,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 .c35 .c27 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c36 .c30 {
@@ -2338,19 +2452,23 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c36 .c30::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c36 .c30::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c36 .c30:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c36 .c30::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c36 .c30 {
@@ -2362,11 +2480,10 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c36 .c28 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -2384,24 +2501,22 @@ exports[`NumberInput demo -- numberInput 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c36 .c25:hover,
 .c36 .c27:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c36 .c25 {
   right: 0;
-  border-width: 1px;
 }
 
 .c36 .c27 {
   left: 0;
-  border-width: 1px;
 }
 
 .c37 .c30 {
@@ -2412,36 +2527,40 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c37 .c30::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c37 .c30::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c37 .c30:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c37 .c30::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c37 .c30 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c37 .c30:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c37 .c25,
@@ -2450,24 +2569,21 @@ exports[`NumberInput demo -- numberInput 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c37 .c25:hover,
 .c37 .c27:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c37 .c25 {
   right: 0;
-  border-width: 1px;
 }
 
 .c37 .c27 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 {
@@ -2513,14 +2629,13 @@ exports[`NumberInput demo -- numberInput 1`] = `
 .c14 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -2530,27 +2645,31 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c14:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c14:hover .c20 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c14 .c20 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c14 .c22 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c14 .c15 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c14 .c17,
@@ -2576,7 +2695,7 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c9 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -2584,10 +2703,22 @@ exports[`NumberInput demo -- numberInput 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+}
+
+.c9 .c10 {
+  color: #c3cad9;
+}
+
+.c9:hover {
+  color: #0a1633;
+}
+
+.c9:hover .c10 {
+  color: #3357df;
 }
 
 .c13 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -2595,10 +2726,15 @@ exports[`NumberInput demo -- numberInput 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+  color: #0a1633;
 }
 
 .c13 .c10 {
-  color: #3555f6;
+  color: #c3cad9;
+}
+
+.c13 .c10 {
+  color: #3860f4;
 }
 
 .c7 {
@@ -2607,13 +2743,13 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c7 .c8,
-.c7 .style__RadioTagWrap-sc-25j3mq-3 {
+.c7 .sc-ifAKCX {
   margin-right: 8px;
   margin-bottom: 8px;
 }
 
 .c7 .c8:last-child,
-.c7 .style__RadioTagWrap-sc-25j3mq-3:last-child {
+.c7 .sc-ifAKCX:last-child {
   margin-right: 0;
 }
 
@@ -2655,11 +2791,11 @@ exports[`NumberInput demo -- numberInput 1`] = `
   vertical-align: middle;
   box-sizing: border-box;
   border-radius: 2px;
-  color: #0a1633;
-  border: 1px solid #dfe0f1;
-  background: #fafafc;
   height: 28px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
 }
@@ -2684,8 +2820,9 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c32:hover {
+  color: #0a1633;
   border-color: #c3cad9;
-  background-color: #f6f6fb;
+  background: #fafafc;
 }
 
 .c32 input {
@@ -2694,19 +2831,23 @@ exports[`NumberInput demo -- numberInput 1`] = `
 }
 
 .c32 input::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c32 input::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c32 input:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c32 input::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c5 {
@@ -3219,13 +3360,18 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -3234,9 +3380,9 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -3249,19 +3395,23 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -3269,7 +3419,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -3297,7 +3447,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -3309,7 +3459,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -3321,23 +3471,27 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -3369,7 +3523,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -3381,7 +3535,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -3392,23 +3546,27 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -3436,7 +3594,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -3448,7 +3606,7 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -3459,19 +3617,23 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -3483,11 +3645,10 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -3505,24 +3666,22 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -3533,36 +3692,40 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -3571,24 +3734,21 @@ exports[`NumberInput demo -- onNumberChange 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -3655,13 +3815,18 @@ exports[`NumberInput demo -- parser 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -3670,9 +3835,9 @@ exports[`NumberInput demo -- parser 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -3685,19 +3850,23 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -3705,7 +3874,7 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -3733,7 +3902,7 @@ exports[`NumberInput demo -- parser 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -3745,7 +3914,7 @@ exports[`NumberInput demo -- parser 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -3757,23 +3926,27 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -3805,7 +3978,7 @@ exports[`NumberInput demo -- parser 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -3817,7 +3990,7 @@ exports[`NumberInput demo -- parser 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -3828,23 +4001,27 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -3872,7 +4049,7 @@ exports[`NumberInput demo -- parser 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -3884,7 +4061,7 @@ exports[`NumberInput demo -- parser 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -3895,19 +4072,23 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -3919,11 +4100,10 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -3941,24 +4121,22 @@ exports[`NumberInput demo -- parser 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -3969,36 +4147,40 @@ exports[`NumberInput demo -- parser 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -4007,24 +4189,21 @@ exports[`NumberInput demo -- parser 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -4128,13 +4307,18 @@ exports[`NumberInput demo -- precision 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -4143,9 +4327,9 @@ exports[`NumberInput demo -- precision 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -4158,19 +4342,23 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -4178,7 +4366,7 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -4206,7 +4394,7 @@ exports[`NumberInput demo -- precision 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -4218,7 +4406,7 @@ exports[`NumberInput demo -- precision 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -4230,23 +4418,27 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -4278,7 +4470,7 @@ exports[`NumberInput demo -- precision 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -4290,7 +4482,7 @@ exports[`NumberInput demo -- precision 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -4301,23 +4493,27 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -4345,7 +4541,7 @@ exports[`NumberInput demo -- precision 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -4357,7 +4553,7 @@ exports[`NumberInput demo -- precision 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -4368,19 +4564,23 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -4392,11 +4592,10 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -4414,24 +4613,22 @@ exports[`NumberInput demo -- precision 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -4442,36 +4639,40 @@ exports[`NumberInput demo -- precision 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -4480,24 +4681,21 @@ exports[`NumberInput demo -- precision 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -4601,13 +4799,18 @@ exports[`NumberInput demo -- readOnly 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -4616,9 +4819,9 @@ exports[`NumberInput demo -- readOnly 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -4631,19 +4834,23 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -4651,7 +4858,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -4679,7 +4886,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -4691,7 +4898,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -4703,23 +4910,27 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -4751,7 +4962,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -4763,7 +4974,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -4774,23 +4985,27 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -4818,7 +5033,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -4830,7 +5045,7 @@ exports[`NumberInput demo -- readOnly 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -4841,19 +5056,23 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -4865,11 +5084,10 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -4887,24 +5105,22 @@ exports[`NumberInput demo -- readOnly 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -4915,36 +5131,40 @@ exports[`NumberInput demo -- readOnly 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -4953,24 +5173,21 @@ exports[`NumberInput demo -- readOnly 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -5075,13 +5292,18 @@ exports[`NumberInput demo -- size 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c11 {
@@ -5090,9 +5312,9 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -5105,19 +5327,23 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11:hover {
@@ -5125,7 +5351,7 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c11 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -5153,7 +5379,7 @@ exports[`NumberInput demo -- size 1`] = `
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c11 .c1 {
@@ -5165,7 +5391,7 @@ exports[`NumberInput demo -- size 1`] = `
 .c11 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c17 .c7 {
@@ -5177,23 +5403,27 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c17 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -5225,7 +5455,7 @@ exports[`NumberInput demo -- size 1`] = `
 
 .c17 .c1:hover,
 .c17 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c17 .c1 {
@@ -5237,7 +5467,7 @@ exports[`NumberInput demo -- size 1`] = `
 .c17 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c18 .c7 {
@@ -5248,23 +5478,27 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c18 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -5292,7 +5526,7 @@ exports[`NumberInput demo -- size 1`] = `
 
 .c18 .c1:hover,
 .c18 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c18 .c1 {
@@ -5304,7 +5538,7 @@ exports[`NumberInput demo -- size 1`] = `
 .c18 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c12 {
@@ -5313,7 +5547,7 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -5326,19 +5560,23 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
@@ -5350,11 +5588,10 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c12 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -5372,24 +5609,22 @@ exports[`NumberInput demo -- size 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 {
@@ -5398,7 +5633,7 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -5411,36 +5646,40 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c13 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c13 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c13 .c1,
@@ -5449,24 +5688,21 @@ exports[`NumberInput demo -- size 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c13 .c1:hover,
 .c13 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c13 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c13 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 .c19 {
@@ -5479,9 +5715,9 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 24px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 18px;
   border-right-width: 0;
 }
@@ -5494,19 +5730,23 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -5514,7 +5754,7 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -5542,7 +5782,7 @@ exports[`NumberInput demo -- size 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -5554,7 +5794,7 @@ exports[`NumberInput demo -- size 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 {
@@ -5563,7 +5803,7 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 24px;
   padding: 0 24px;
 }
@@ -5576,19 +5816,23 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7 {
@@ -5600,11 +5844,10 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c9 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -5622,24 +5865,22 @@ exports[`NumberInput demo -- size 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c9 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c9 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c10 {
@@ -5648,7 +5889,7 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 24px;
   padding: 0 24px;
 }
@@ -5661,36 +5902,40 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c10 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c10 .c1,
@@ -5699,24 +5944,21 @@ exports[`NumberInput demo -- size 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c10 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c10 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c10 .c19 {
@@ -5729,9 +5971,9 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 32px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 26px;
   border-right-width: 0;
 }
@@ -5744,19 +5986,23 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c14 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14:hover {
@@ -5764,7 +6010,7 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c14 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -5792,7 +6038,7 @@ exports[`NumberInput demo -- size 1`] = `
 
 .c14 .c1:hover,
 .c14 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c14 .c1 {
@@ -5804,7 +6050,7 @@ exports[`NumberInput demo -- size 1`] = `
 .c14 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c15 {
@@ -5813,7 +6059,7 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 32px;
   padding: 0 32px;
 }
@@ -5826,19 +6072,23 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c15 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7 {
@@ -5850,11 +6100,10 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c15 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -5872,24 +6121,22 @@ exports[`NumberInput demo -- size 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c15 .c1:hover,
 .c15 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c15 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c15 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 {
@@ -5898,7 +6145,7 @@ exports[`NumberInput demo -- size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 32px;
   padding: 0 32px;
 }
@@ -5911,36 +6158,40 @@ exports[`NumberInput demo -- size 1`] = `
 }
 
 .c16 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c16 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c16 .c1,
@@ -5949,24 +6200,21 @@ exports[`NumberInput demo -- size 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c16 .c1:hover,
 .c16 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c16 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c16 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 .c19 {
@@ -6345,13 +6593,18 @@ exports[`NumberInput demo -- step 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -6360,9 +6613,9 @@ exports[`NumberInput demo -- step 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -6375,19 +6628,23 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -6395,7 +6652,7 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -6423,7 +6680,7 @@ exports[`NumberInput demo -- step 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -6435,7 +6692,7 @@ exports[`NumberInput demo -- step 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -6447,23 +6704,27 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -6495,7 +6756,7 @@ exports[`NumberInput demo -- step 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -6507,7 +6768,7 @@ exports[`NumberInput demo -- step 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -6518,23 +6779,27 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -6562,7 +6827,7 @@ exports[`NumberInput demo -- step 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -6574,7 +6839,7 @@ exports[`NumberInput demo -- step 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -6585,19 +6850,23 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -6609,11 +6878,10 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -6631,24 +6899,22 @@ exports[`NumberInput demo -- step 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -6659,36 +6925,40 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -6697,24 +6967,21 @@ exports[`NumberInput demo -- step 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 .c7 {
@@ -6725,23 +6992,27 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c13 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -6769,7 +7040,7 @@ exports[`NumberInput demo -- step 1`] = `
 
 .c13 .c1:hover,
 .c13 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c13 .c1 {
@@ -6781,7 +7052,7 @@ exports[`NumberInput demo -- step 1`] = `
 .c13 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c14 .c7 {
@@ -6792,19 +7063,23 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c14 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7 {
@@ -6816,11 +7091,10 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c14 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -6838,24 +7112,22 @@ exports[`NumberInput demo -- step 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c14 .c1:hover,
 .c14 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c14 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c14 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c15 .c7 {
@@ -6866,36 +7138,40 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c15 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c15 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c15 .c1,
@@ -6904,24 +7180,21 @@ exports[`NumberInput demo -- step 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c15 .c1:hover,
 .c15 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c15 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c15 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 .c7 {
@@ -6932,23 +7205,27 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c16 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -6976,7 +7253,7 @@ exports[`NumberInput demo -- step 1`] = `
 
 .c16 .c1:hover,
 .c16 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c16 .c1 {
@@ -6988,7 +7265,7 @@ exports[`NumberInput demo -- step 1`] = `
 .c16 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c17 .c7 {
@@ -6999,19 +7276,23 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c17 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7 {
@@ -7023,11 +7304,10 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c17 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -7045,24 +7325,22 @@ exports[`NumberInput demo -- step 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c17 .c1:hover,
 .c17 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c17 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c17 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c18 .c7 {
@@ -7073,36 +7351,40 @@ exports[`NumberInput demo -- step 1`] = `
 }
 
 .c18 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c18 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c18 .c1,
@@ -7111,24 +7393,21 @@ exports[`NumberInput demo -- step 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c18 .c1:hover,
 .c18 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c18 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c18 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -7232,13 +7511,18 @@ exports[`NumberInput demo -- styleType 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -7247,9 +7531,9 @@ exports[`NumberInput demo -- styleType 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -7262,19 +7546,23 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -7282,7 +7570,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -7310,7 +7598,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -7322,7 +7610,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -7334,23 +7622,27 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -7382,7 +7674,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c11 .c1 {
@@ -7394,7 +7686,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 .c11 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c12 .c7 {
@@ -7405,23 +7697,27 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -7449,7 +7745,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c12 .c1 {
@@ -7461,7 +7757,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 .c12 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 {
@@ -7470,7 +7766,7 @@ exports[`NumberInput demo -- styleType 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -7483,19 +7779,23 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7 {
@@ -7507,11 +7807,10 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c9 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -7529,24 +7828,22 @@ exports[`NumberInput demo -- styleType 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c9 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c9 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c10 {
@@ -7555,7 +7852,7 @@ exports[`NumberInput demo -- styleType 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -7568,36 +7865,40 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c10 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c10 .c1,
@@ -7606,24 +7907,21 @@ exports[`NumberInput demo -- styleType 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c10 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c10 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c10 .c19 {
@@ -7638,23 +7936,27 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c13 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -7682,7 +7984,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 
 .c13 .c1:hover,
 .c13 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c13 .c1 {
@@ -7694,7 +7996,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 .c13 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c14 .c7 {
@@ -7705,19 +8007,23 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c14 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7 {
@@ -7729,11 +8035,10 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c14 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -7751,24 +8056,22 @@ exports[`NumberInput demo -- styleType 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c14 .c1:hover,
 .c14 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c14 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c14 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c15 .c7 {
@@ -7779,36 +8082,40 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c15 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c15 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c15 .c1,
@@ -7817,24 +8124,21 @@ exports[`NumberInput demo -- styleType 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c15 .c1:hover,
 .c15 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c15 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c15 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 .c7 {
@@ -7845,23 +8149,27 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c16 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -7889,7 +8197,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 
 .c16 .c1:hover,
 .c16 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c16 .c1 {
@@ -7901,7 +8209,7 @@ exports[`NumberInput demo -- styleType 1`] = `
 .c16 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c17 .c7 {
@@ -7912,19 +8220,23 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c17 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7 {
@@ -7936,11 +8248,10 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c17 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -7958,24 +8269,22 @@ exports[`NumberInput demo -- styleType 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c17 .c1:hover,
 .c17 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c17 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c17 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c18 .c7 {
@@ -7986,36 +8295,40 @@ exports[`NumberInput demo -- styleType 1`] = `
 }
 
 .c18 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c18 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c18 .c1,
@@ -8024,24 +8337,21 @@ exports[`NumberInput demo -- styleType 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c18 .c1:hover,
 .c18 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c18 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c18 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -8177,7 +8487,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c10 {
-  color: #c3cad9;
+  color: #7a8baa;
   margin: 0 4px;
   display: inline-block;
   vertical-align: middle;
@@ -8189,13 +8499,18 @@ exports[`NumberInput demo -- suffix 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -8204,9 +8519,9 @@ exports[`NumberInput demo -- suffix 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -8219,19 +8534,23 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -8239,7 +8558,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -8267,7 +8586,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -8279,7 +8598,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c13 .c7 {
@@ -8291,23 +8610,27 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c13 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -8339,7 +8662,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 
 .c13 .c1:hover,
 .c13 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c13 .c1 {
@@ -8351,7 +8674,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 .c13 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c14 .c7 {
@@ -8362,23 +8685,27 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c14 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -8406,7 +8733,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 
 .c14 .c1:hover,
 .c14 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c14 .c1 {
@@ -8418,7 +8745,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 .c14 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 {
@@ -8427,7 +8754,7 @@ exports[`NumberInput demo -- suffix 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -8440,19 +8767,23 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -8464,11 +8795,10 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -8486,24 +8816,22 @@ exports[`NumberInput demo -- suffix 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 {
@@ -8512,7 +8840,7 @@ exports[`NumberInput demo -- suffix 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
 }
@@ -8525,36 +8853,40 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -8563,24 +8895,21 @@ exports[`NumberInput demo -- suffix 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c9 {
@@ -8595,23 +8924,27 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c15 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -8639,7 +8972,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 
 .c15 .c1:hover,
 .c15 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c15 .c1 {
@@ -8651,7 +8984,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 .c15 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c16 .c7 {
@@ -8662,19 +8995,23 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c16 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7 {
@@ -8686,11 +9023,10 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c16 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -8708,24 +9044,22 @@ exports[`NumberInput demo -- suffix 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c16 .c1:hover,
 .c16 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c16 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c16 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c17 .c7 {
@@ -8736,36 +9070,40 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c17 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c17 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c17 .c1,
@@ -8774,24 +9112,21 @@ exports[`NumberInput demo -- suffix 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c17 .c1:hover,
 .c17 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c17 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c17 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c17 .c9 {
@@ -8806,23 +9141,27 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c18 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -8850,7 +9189,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 
 .c18 .c1:hover,
 .c18 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c18 .c1 {
@@ -8862,7 +9201,7 @@ exports[`NumberInput demo -- suffix 1`] = `
 .c18 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c19 .c7 {
@@ -8873,19 +9212,23 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c19 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c19 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c19 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c19 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c19 .c7 {
@@ -8897,11 +9240,10 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c19 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -8919,24 +9261,22 @@ exports[`NumberInput demo -- suffix 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c19 .c1:hover,
 .c19 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c19 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c19 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c20 .c7 {
@@ -8947,36 +9287,40 @@ exports[`NumberInput demo -- suffix 1`] = `
 }
 
 .c20 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c20 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c20 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c20 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c20 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c20 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c20 .c1,
@@ -8985,24 +9329,21 @@ exports[`NumberInput demo -- suffix 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c20 .c1:hover,
 .c20 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c20 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c20 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c20 .c9 {
@@ -9429,13 +9770,18 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -9444,9 +9790,9 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -9459,19 +9805,23 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c0 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -9479,7 +9829,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c0 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -9507,7 +9857,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 
 .c0 .c1:hover,
 .c0 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -9519,7 +9869,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 .c0 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c7 {
@@ -9531,23 +9881,27 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c9 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -9579,7 +9933,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 
 .c9 .c1:hover,
 .c9 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -9591,7 +9945,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 .c9 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c7 {
@@ -9602,23 +9956,27 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c10 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -9646,7 +10004,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 
 .c10 .c1:hover,
 .c10 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -9658,7 +10016,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 .c10 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c7 {
@@ -9669,19 +10027,23 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c11 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c7 {
@@ -9693,11 +10055,10 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c11 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -9715,24 +10076,22 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c7 {
@@ -9743,36 +10102,40 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c12 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -9781,24 +10144,21 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 .c7 {
@@ -9809,23 +10169,27 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c13 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -9853,7 +10217,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 
 .c13 .c1:hover,
 .c13 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c13 .c1 {
@@ -9865,7 +10229,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 .c13 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c14 .c7 {
@@ -9876,19 +10240,23 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c14 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c7 {
@@ -9900,11 +10268,10 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c14 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -9922,24 +10289,22 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c14 .c1:hover,
 .c14 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c14 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c14 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c15 .c7 {
@@ -9950,36 +10315,40 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c15 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c15 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c15 .c1,
@@ -9988,24 +10357,21 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c15 .c1:hover,
 .c15 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c15 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c15 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 .c7 {
@@ -10016,23 +10382,27 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c16 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c5 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -10060,7 +10430,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 
 .c16 .c1:hover,
 .c16 .c4:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c16 .c1 {
@@ -10072,7 +10442,7 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 .c16 .c4 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c17 .c7 {
@@ -10083,19 +10453,23 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c17 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c7 {
@@ -10107,11 +10481,10 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c17 .c5 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -10129,24 +10502,22 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c17 .c1:hover,
 .c17 .c4:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c17 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c17 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 .c18 .c7 {
@@ -10157,36 +10528,40 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
 }
 
 .c18 .c7::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c7 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c18 .c7:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c18 .c1,
@@ -10195,24 +10570,21 @@ exports[`NumberInput demo -- uncontrolled 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c18 .c1:hover,
 .c18 .c4:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c18 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c18 .c4 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>
@@ -10310,13 +10682,18 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c2:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c0 {
@@ -10325,9 +10702,9 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -10340,19 +10717,23 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c0 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c0:hover {
@@ -10360,7 +10741,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c0 .c4 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -10388,7 +10769,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 
 .c0 .c1:hover,
 .c0 .c3:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c0 .c1 {
@@ -10400,7 +10781,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 .c0 .c3 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c9 .c6 {
@@ -10412,23 +10793,27 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c9 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c9 .c4 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -10460,7 +10845,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 
 .c9 .c1:hover,
 .c9 .c3:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c9 .c1 {
@@ -10472,7 +10857,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 .c9 .c3 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c10 .c6 {
@@ -10483,23 +10868,27 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c10 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c10 .c4 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -10527,7 +10916,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 
 .c10 .c1:hover,
 .c10 .c3:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c10 .c1 {
@@ -10539,7 +10928,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 .c10 .c3 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c11 .c6 {
@@ -10550,19 +10939,23 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c11 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c11 .c6 {
@@ -10574,11 +10967,10 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c11 .c4 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -10596,24 +10988,22 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c11 .c1:hover,
 .c11 .c3:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c11 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c11 .c3 {
   left: 0;
-  border-width: 1px;
 }
 
 .c12 .c6 {
@@ -10624,36 +11014,40 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c12 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c6 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c12 .c6:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c1,
@@ -10662,24 +11056,21 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c12 .c1:hover,
 .c12 .c3:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c12 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c12 .c3 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 .c6 {
@@ -10690,23 +11081,27 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c13 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c4 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -10734,7 +11129,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 
 .c13 .c1:hover,
 .c13 .c3:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c13 .c1 {
@@ -10746,7 +11141,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 .c13 .c3 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c14 .c6 {
@@ -10757,19 +11152,23 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c14 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c6 {
@@ -10781,11 +11180,10 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c14 .c4 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -10803,24 +11201,22 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c14 .c1:hover,
 .c14 .c3:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c14 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c14 .c3 {
   left: 0;
-  border-width: 1px;
 }
 
 .c15 .c6 {
@@ -10831,36 +11227,40 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c15 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c6 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c15 .c6:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c15 .c1,
@@ -10869,24 +11269,21 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c15 .c1:hover,
 .c15 .c3:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c15 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c15 .c3 {
   left: 0;
-  border-width: 1px;
 }
 
 .c16 .c6 {
@@ -10897,23 +11294,27 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c16 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c4 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -10941,7 +11342,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 
 .c16 .c1:hover,
 .c16 .c3:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c16 .c1 {
@@ -10953,7 +11354,7 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 .c16 .c3 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c17 .c6 {
@@ -10964,19 +11365,23 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c17 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c17 .c6 {
@@ -10988,11 +11393,10 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c17 .c4 {
-  border: 1px solid #c3cad9;
   margin: 0 -1px 0 -1px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
-  border-color: #dfe0f1;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
   margin: 0;
@@ -11010,24 +11414,22 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c17 .c1:hover,
 .c17 .c3:hover {
-  color: #3555f6;
+  color: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
   z-index: 1;
 }
 
 .c17 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c17 .c3 {
   left: 0;
-  border-width: 1px;
 }
 
 .c18 .c6 {
@@ -11038,36 +11440,40 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
 }
 
 .c18 .c6::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c6::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c6:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c6::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c18 .c6 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c18 .c6:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c18 .c1,
@@ -11076,24 +11482,21 @@ exports[`NumberInput demo -- upHandlerAndDownHandler 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c18 .c1:hover,
 .c18 .c3:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c18 .c1 {
   right: 0;
-  border-width: 1px;
 }
 
 .c18 .c3 {
   left: 0;
-  border-width: 1px;
 }
 
 <div>

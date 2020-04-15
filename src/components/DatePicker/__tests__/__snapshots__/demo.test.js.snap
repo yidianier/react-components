@@ -26,38 +26,43 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c38 .c35::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c38 .c35::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c38 .c35:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c38 .c35::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c38 .c35 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
   box-shadow: none;
+  background: #f7f7f7;
 }
 
 .c38 .c35:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c38 .c35 {
@@ -70,7 +75,7 @@ exports[`DatePicker demo -- datepicker 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
   padding: 0;
@@ -85,36 +90,40 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c33 .c35::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c33 .c35::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c33 .c35:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c33 .c35::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c33 .c35 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c33 .c35:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c33 .c43,
@@ -123,24 +132,21 @@ exports[`DatePicker demo -- datepicker 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c33 .c43:hover,
 .c33 .c44:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c33 .c43 {
   right: 0;
-  border-width: 1px;
 }
 
 .c33 .c44 {
   left: 0;
-  border-width: 1px;
 }
 
 .c33 .c42 {
@@ -164,36 +170,40 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c39 .c35::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c39 .c35::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c39 .c35:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c39 .c35::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c39 .c35 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c39 .c35:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c39 .c35 {
@@ -208,36 +218,40 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c40 .c35::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c40 .c35::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c40 .c35:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c40 .c35::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c40 .c35 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c40 .c35:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c40 .c35 {
@@ -250,7 +264,7 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c22 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -258,10 +272,22 @@ exports[`DatePicker demo -- datepicker 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+}
+
+.c22 .c23 {
+  color: #c3cad9;
+}
+
+.c22:hover {
+  color: #0a1633;
+}
+
+.c22:hover .c23 {
+  color: #3357df;
 }
 
 .c26 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -269,10 +295,15 @@ exports[`DatePicker demo -- datepicker 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+  color: #0a1633;
 }
 
 .c26 .c23 {
-  color: #3555f6;
+  color: #c3cad9;
+}
+
+.c26 .c23 {
+  color: #3860f4;
 }
 
 .c20 {
@@ -281,13 +312,13 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c20 .c21,
-.c20 .style__RadioTagWrap-sc-25j3mq-3 {
+.c20 .sc-ifAKCX {
   margin-right: 8px;
   margin-bottom: 8px;
 }
 
 .c20 .c21:last-child,
-.c20 .style__RadioTagWrap-sc-25j3mq-3:last-child {
+.c20 .sc-ifAKCX:last-child {
   margin-right: 0;
 }
 
@@ -329,11 +360,11 @@ exports[`DatePicker demo -- datepicker 1`] = `
   vertical-align: middle;
   box-sizing: border-box;
   border-radius: 2px;
-  color: #0a1633;
-  border: 1px solid #dfe0f1;
-  background: #fafafc;
   height: 28px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
 }
@@ -358,8 +389,9 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c7:hover {
+  color: #0a1633;
   border-color: #c3cad9;
-  background-color: #f6f6fb;
+  background: #fafafc;
 }
 
 .c7 input {
@@ -368,30 +400,34 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c7 input::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 input::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 input:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 input::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c29 {
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -417,11 +453,10 @@ exports[`DatePicker demo -- datepicker 1`] = `
 
 .c41 .c28 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c27 {
@@ -472,14 +507,13 @@ exports[`DatePicker demo -- datepicker 1`] = `
 .c9 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -489,27 +523,31 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c9:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c9:hover .c15 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c9 .c15 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c9 .c17 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c9 .c10 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c9 .c12,
@@ -526,9 +564,10 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c9 .c10 {
-  border-color: #9fecc0;
-  background-color: #c3f3d8;
-  color: #5cd78e;
+  color: #4cd964;
+  border-color: #9effa5;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #edfff2;
 }
 
 .c9 .c15 {
@@ -537,7 +576,7 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c9 .c17 {
-  background: #9fecc0;
+  background: #4cd964;
 }
 
 .c9 .c14 {
@@ -547,14 +586,13 @@ exports[`DatePicker demo -- datepicker 1`] = `
 .c19 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -564,27 +602,31 @@ exports[`DatePicker demo -- datepicker 1`] = `
 }
 
 .c19:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c19:hover .c15 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c19 .c15 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c19 .c17 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c19 .c10 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c19 .c12,
@@ -1009,10 +1051,10 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   pointer-events: none;
-  color: #bbb;
+  color: #cccccc;
   -webkit-text-fill-color: currentcolor;
   padding: 0 28px;
   padding: 0;
@@ -1028,38 +1070,43 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
 }
 
 .c7 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
   box-shadow: none;
+  background: #f7f7f7;
 }
 
 .c7 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c7 .c15,
@@ -1068,24 +1115,21 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c7 .c15:hover,
 .c7 .c16:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c7 .c15 {
   right: 0;
-  border-width: 1px;
 }
 
 .c7 .c16 {
   left: 0;
-  border-width: 1px;
 }
 
 .c7 .c14 {
@@ -1107,7 +1151,7 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
   padding: 0;
@@ -1122,36 +1166,40 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
 }
 
 .c13 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c13 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c13 .c15,
@@ -1160,24 +1208,21 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c13 .c15:hover,
 .c13 .c16:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c13 .c15 {
   right: 0;
-  border-width: 1px;
 }
 
 .c13 .c16 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 .c14 {
@@ -1197,11 +1242,11 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -1232,11 +1277,10 @@ exports[`DatePicker demo -- datepicker-disabled 1`] = `
 
 .c0 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c12 {
@@ -1441,38 +1485,43 @@ exports[`DatePicker demo -- datepicker-display 1`] = `
 }
 
 .c12 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
   box-shadow: none;
+  background: #f7f7f7;
 }
 
 .c12 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c9 {
@@ -1485,7 +1534,7 @@ exports[`DatePicker demo -- datepicker-display 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
   padding: 0;
@@ -1500,36 +1549,40 @@ exports[`DatePicker demo -- datepicker-display 1`] = `
 }
 
 .c7 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c7 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c7 .c15,
@@ -1538,24 +1591,21 @@ exports[`DatePicker demo -- datepicker-display 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c7 .c15:hover,
 .c7 .c16:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c7 .c15 {
   right: 0;
-  border-width: 1px;
 }
 
 .c7 .c16 {
   left: 0;
-  border-width: 1px;
 }
 
 .c7 .c14 {
@@ -1575,11 +1625,11 @@ exports[`DatePicker demo -- datepicker-display 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -1605,11 +1655,10 @@ exports[`DatePicker demo -- datepicker-display 1`] = `
 
 .c13 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -1899,19 +1948,17 @@ exports[`DatePicker demo -- datepicker-getcalendarcontainer 1`] = `
   height: 28px;
   padding: 0 8px;
   color: #0a1633;
-  background: #fff;
-  border-color: #c3cad9;
+  background: #ffffff;
   border: none;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
   transition: all .22s cubic-bezier(.4,0,.2,1);
 }
 
 .c0:hover {
-  color: #3555f6;
-  background: #fff;
-  border-color: #4683e6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 <div>
@@ -1966,38 +2013,43 @@ exports[`DatePicker demo -- datepicker-rules 1`] = `
 }
 
 .c12 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
   box-shadow: none;
+  background: #f7f7f7;
 }
 
 .c12 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c9 {
@@ -2010,7 +2062,7 @@ exports[`DatePicker demo -- datepicker-rules 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
   padding: 0;
@@ -2025,36 +2077,40 @@ exports[`DatePicker demo -- datepicker-rules 1`] = `
 }
 
 .c7 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c7 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c7 .c15,
@@ -2063,24 +2119,21 @@ exports[`DatePicker demo -- datepicker-rules 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c7 .c15:hover,
 .c7 .c16:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c7 .c15 {
   right: 0;
-  border-width: 1px;
 }
 
 .c7 .c16 {
   left: 0;
-  border-width: 1px;
 }
 
 .c7 .c14 {
@@ -2100,11 +2153,11 @@ exports[`DatePicker demo -- datepicker-rules 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -2130,11 +2183,10 @@ exports[`DatePicker demo -- datepicker-rules 1`] = `
 
 .c13 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -2252,38 +2304,43 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
 }
 
 .c16 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c16 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
   box-shadow: none;
+  background: #f7f7f7;
 }
 
 .c16 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c16 .c9 {
@@ -2296,7 +2353,7 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
   padding: 0;
@@ -2311,36 +2368,40 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
 }
 
 .c13 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c13 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c13 .c19,
@@ -2349,24 +2410,21 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c13 .c19:hover,
 .c13 .c20:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c13 .c19 {
   right: 0;
-  border-width: 1px;
 }
 
 .c13 .c20 {
   left: 0;
-  border-width: 1px;
 }
 
 .c13 .c18 {
@@ -2388,7 +2446,7 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 24px;
   padding: 0 24px;
   padding: 0;
@@ -2403,36 +2461,40 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
 }
 
 .c7 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c7 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c7 .c19,
@@ -2441,24 +2503,21 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   top: 0;
   height: 24px;
   width: 24px;
-  line-height: 22px;
+  line-height: 24px;
   border-color: transparent;
 }
 
 .c7 .c19:hover,
 .c7 .c20:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c7 .c19 {
   right: 0;
-  border-width: 1px;
 }
 
 .c7 .c20 {
   left: 0;
-  border-width: 1px;
 }
 
 .c7 .c18 {
@@ -2480,7 +2539,7 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 32px;
   padding: 0 32px;
   padding: 0;
@@ -2495,36 +2554,40 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
 }
 
 .c15 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c15 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c15 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c15 .c19,
@@ -2533,24 +2596,21 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   top: 0;
   height: 32px;
   width: 32px;
-  line-height: 30px;
+  line-height: 32px;
   border-color: transparent;
 }
 
 .c15 .c19:hover,
 .c15 .c20:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c15 .c19 {
   right: 0;
-  border-width: 1px;
 }
 
 .c15 .c20 {
   left: 0;
-  border-width: 1px;
 }
 
 .c15 .c18 {
@@ -2570,11 +2630,11 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -2583,11 +2643,11 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   height: 24px;
   line-height: 22px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -2596,11 +2656,11 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
   height: 32px;
   line-height: 30px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -2626,11 +2686,10 @@ exports[`DatePicker demo -- datepicker-size 1`] = `
 
 .c17 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -2908,38 +2967,43 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
 }
 
 .c12 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c12 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
-  border-color: #d9d9d9;
+  border-color: #cccccc;
   box-shadow: none;
+  background: #f7f7f7;
 }
 
 .c12 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c12 .c9 {
@@ -2952,7 +3016,7 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
   padding: 0 28px;
   padding: 0;
@@ -2967,36 +3031,40 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
 }
 
 .c7 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 26px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c7 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c7 .c17,
@@ -3005,24 +3073,21 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
   top: 0;
   height: 28px;
   width: 28px;
-  line-height: 26px;
+  line-height: 28px;
   border-color: transparent;
 }
 
 .c7 .c17:hover,
 .c7 .c18:hover {
-  color: #3555f6;
   z-index: 1;
 }
 
 .c7 .c17 {
   right: 0;
-  border-width: 1px;
 }
 
 .c7 .c18 {
   left: 0;
-  border-width: 1px;
 }
 
 .c7 .c16 {
@@ -3046,36 +3111,40 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
 }
 
 .c13 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c13 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 22px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c13 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c13 .c9 {
@@ -3090,36 +3159,40 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
 }
 
 .c14 .c9::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c9::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c9:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c9::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c14 .c9 {
   text-align: center;
-  border: 1px solid #dfe0f1;
   margin: 0 4px;
   width: 30px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
-  background: #fafafc;
 }
 
 .c14 .c9:hover {
   z-index: 1;
-  background: #f6f6fb;
   border-color: #c3cad9;
+  background: #f6f6fb;
 }
 
 .c14 .c9 {
@@ -3130,11 +3203,11 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3160,11 +3233,10 @@ exports[`DatePicker demo -- datepicker-uncontrolled 1`] = `
 
 .c15 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -3347,7 +3419,7 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c21 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -3355,10 +3427,22 @@ exports[`DatePicker demo -- month 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+}
+
+.c21 .c22 {
+  color: #c3cad9;
+}
+
+.c21:hover {
+  color: #0a1633;
+}
+
+.c21:hover .c22 {
+  color: #3357df;
 }
 
 .c25 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -3366,10 +3450,15 @@ exports[`DatePicker demo -- month 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+  color: #0a1633;
 }
 
 .c25 .c22 {
-  color: #3555f6;
+  color: #c3cad9;
+}
+
+.c25 .c22 {
+  color: #3860f4;
 }
 
 .c19 {
@@ -3378,13 +3467,13 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c19 .c20,
-.c19 .style__RadioTagWrap-sc-25j3mq-3 {
+.c19 .sc-ifAKCX {
   margin-right: 8px;
   margin-bottom: 8px;
 }
 
 .c19 .c20:last-child,
-.c19 .style__RadioTagWrap-sc-25j3mq-3:last-child {
+.c19 .sc-ifAKCX:last-child {
   margin-right: 0;
 }
 
@@ -3426,11 +3515,11 @@ exports[`DatePicker demo -- month 1`] = `
   vertical-align: middle;
   box-sizing: border-box;
   border-radius: 2px;
-  color: #0a1633;
-  border: 1px solid #dfe0f1;
-  background: #fafafc;
   height: 28px;
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #fafafc;
   -webkit-transition: .18s cubic-bezier(.4,0,.2,1);
   transition: .18s cubic-bezier(.4,0,.2,1);
 }
@@ -3455,8 +3544,9 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c7:hover {
+  color: #0a1633;
   border-color: #c3cad9;
-  background-color: #f6f6fb;
+  background: #fafafc;
 }
 
 .c7 input {
@@ -3465,30 +3555,34 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c7 input::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 input::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 input:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 input::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c28 {
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3504,11 +3598,10 @@ exports[`DatePicker demo -- month 1`] = `
 
 .c31 .c27 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c26 {
@@ -3556,24 +3649,28 @@ exports[`DatePicker demo -- month 1`] = `
   transition: all 0.3s;
 }
 
+.c32:hover .c15 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
 .c32 .c15 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c32 .c17 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c32 .c10 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c32 .c12,
@@ -3590,9 +3687,10 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c32 .c10 {
-  border-color: #9fecc0;
-  background-color: #c3f3d8;
-  color: #5cd78e;
+  color: #4cd964;
+  border-color: #9effa5;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #edfff2;
 }
 
 .c32 .c15 {
@@ -3601,7 +3699,7 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c32 .c17 {
-  background: #9fecc0;
+  background: #4cd964;
 }
 
 .c32 .c14 {
@@ -3611,14 +3709,13 @@ exports[`DatePicker demo -- month 1`] = `
 .c9 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -3628,27 +3725,31 @@ exports[`DatePicker demo -- month 1`] = `
 }
 
 .c9:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c9:hover .c15 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c9 .c15 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c9 .c17 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c9 .c10 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c9 .c12,
@@ -3877,11 +3978,11 @@ exports[`DatePicker demo -- month-disabled 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3902,11 +4003,10 @@ exports[`DatePicker demo -- month-disabled 1`] = `
 
 .c0 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c6 {
@@ -3970,11 +4070,11 @@ exports[`DatePicker demo -- month-display 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3990,11 +4090,10 @@ exports[`DatePicker demo -- month-display 1`] = `
 
 .c6 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -4066,19 +4165,17 @@ exports[`DatePicker demo -- month-getcalendarcontainer 1`] = `
   height: 28px;
   padding: 0 8px;
   color: #0a1633;
-  background: #fff;
-  border-color: #c3cad9;
+  background: #ffffff;
   border: none;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
   transition: all .22s cubic-bezier(.4,0,.2,1);
 }
 
 .c0:hover {
-  color: #3555f6;
-  background: #fff;
-  border-color: #4683e6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 <div>
@@ -4116,11 +4213,11 @@ exports[`DatePicker demo -- month-rules 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4136,11 +4233,10 @@ exports[`DatePicker demo -- month-rules 1`] = `
 
 .c6 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -4182,11 +4278,11 @@ exports[`DatePicker demo -- month-size 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4195,11 +4291,11 @@ exports[`DatePicker demo -- month-size 1`] = `
   height: 24px;
   line-height: 22px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4208,11 +4304,11 @@ exports[`DatePicker demo -- month-size 1`] = `
   height: 32px;
   line-height: 30px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4228,11 +4324,10 @@ exports[`DatePicker demo -- month-size 1`] = `
 
 .c8 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -4316,11 +4411,11 @@ exports[`DatePicker demo -- month-uncontrolled 1`] = `
   height: 28px;
   line-height: 26px;
   padding: 1px 8px;
-  border: 0px solid #c3cad9;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4336,11 +4431,10 @@ exports[`DatePicker demo -- month-uncontrolled 1`] = `
 
 .c6 .c1 {
   pointer-events: none;
-  color: #bbb;
-  border-color: #d9d9d9;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   background: #f7f7f7;
   box-shadow: none;
-  border-width: 1px;
 }
 
 .c0 {
@@ -4399,13 +4493,43 @@ exports[`DatePicker demo -- range 1`] = `
   vertical-align: baseline;
 }
 
+.c27 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c27:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
 .c11 {
   margin-right: 8px;
   font-size: 14px;
 }
 
 .c13 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -4413,10 +4537,22 @@ exports[`DatePicker demo -- range 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+}
+
+.c13 .c10 {
+  color: #c3cad9;
+}
+
+.c13:hover {
+  color: #0a1633;
+}
+
+.c13:hover .c10 {
+  color: #3357df;
 }
 
 .c9 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -4424,10 +4560,15 @@ exports[`DatePicker demo -- range 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+  color: #0a1633;
 }
 
 .c9 .c10 {
-  color: #3555f6;
+  color: #c3cad9;
+}
+
+.c9 .c10 {
+  color: #3860f4;
 }
 
 .c7 {
@@ -4436,49 +4577,47 @@ exports[`DatePicker demo -- range 1`] = `
 }
 
 .c7 .c8,
-.c7 .style__RadioTagWrap-sc-25j3mq-3 {
+.c7 .sc-ifAKCX {
   margin-right: 8px;
   margin-bottom: 8px;
 }
 
 .c7 .c8:last-child,
-.c7 .style__RadioTagWrap-sc-25j3mq-3:last-child {
+.c7 .sc-ifAKCX:last-child {
   margin-right: 0;
 }
 
-.c7 .c39 {
+.c7 .c38 {
   margin-right: 12px;
   margin-bottom: 8px;
 }
 
-.c7 .c39:last-child {
+.c7 .c38:last-child {
   margin-right: 0;
 }
 
-.c7 .c40+.c40 {
+.c7 .c39+.c39 {
   margin-left: -1px;
 }
 
-.c7 .c38 {
+.c7 .c37 {
   margin-right: -1px;
   margin-bottom: 8px;
 }
 
-.c7 .c38:first-child {
+.c7 .c37:first-child {
   border-radius: 2px 0 0 2px;
 }
 
-.c7 .c38:last-child {
+.c7 .c37:last-child {
   border-radius: 0 2px 2px 0;
   margin-right: 0;
 }
 
-.c27 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
+.c26 {
   padding-right: 28px;
-  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
 }
 
 .c28 {
@@ -4488,81 +4627,16 @@ exports[`DatePicker demo -- range 1`] = `
   margin-top: -6px;
 }
 
-.c33 .c26 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c33 .c26:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c33 .c26 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c25 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c25 .c26 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c25 .c26:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c34 .c26 {
-  height: 24px;
-  line-height: 24px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c34 .c26:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c35 .c26 {
-  height: 32px;
-  line-height: 32px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c35 .c26:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c32 {
+.c33 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -4571,29 +4645,32 @@ exports[`DatePicker demo -- range 1`] = `
   margin-right: 8px;
 }
 
+.c34 .c30 {
+  background: #c3cad9;
+}
+
 .c29 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c29:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c36 .c31 {
+.c35 .c32 {
   display: none;
 }
 
-.c30 {
+.c31 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -4642,69 +4719,73 @@ exports[`DatePicker demo -- range 1`] = `
   transition: all 0.3s;
 }
 
-.c37 .c20 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+.c36:hover .c20 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c36 .c20 {
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
-.c37 .c22 {
-  background-color: #e69b9b;
+.c36 .c22 {
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
-.c37 .c15 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+.c36 .c15 {
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
-.c37 .c17,
-.c37 .c19 {
+.c36 .c17,
+.c36 .c19 {
   line-height: 16px;
 }
 
-.c37 .c17 {
+.c36 .c17 {
   padding-right: 20px;
 }
 
-.c37 .c19 {
+.c36 .c19 {
   padding-left: 20px;
 }
 
-.c37 .c15 {
-  border-color: #9fecc0;
-  background-color: #c3f3d8;
-  color: #5cd78e;
+.c36 .c15 {
+  color: #4cd964;
+  border-color: #9effa5;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #edfff2;
 }
 
-.c37 .c20 {
+.c36 .c20 {
   left: 100%;
   margin-left: -19px;
 }
 
-.c37 .c22 {
-  background: #9fecc0;
+.c36 .c22 {
+  background: #4cd964;
 }
 
-.c37 .c19 {
+.c36 .c19 {
   display: none;
 }
 
 .c14 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -4714,27 +4795,31 @@ exports[`DatePicker demo -- range 1`] = `
 }
 
 .c14:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c14:hover .c20 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c14 .c20 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c14 .c22 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c14 .c15 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c14 .c17,
@@ -4990,8 +5075,9 @@ exports[`DatePicker demo -- range 1`] = `
         class="c24 c25"
       >
         <div>
-          <div
-            class="c26 c27"
+          <button
+            class="c26 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c27"
+            type="button"
           >
             <div>
               自定义
@@ -4999,7 +5085,7 @@ exports[`DatePicker demo -- range 1`] = `
             <i
               class="uc-fe-icon icon__down c28 c12"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5009,13 +5095,13 @@ exports[`DatePicker demo -- range 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c30"
+          class="c30 c31"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c31 c32 c12"
+          class="uc-fe-icon icon__calendar c32 c33 c12"
           color="blue"
         />
       </div>
@@ -5029,12 +5115,80 @@ exports[`DatePicker demo -- range-disabled 1`] = `
   vertical-align: baseline;
 }
 
-.c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+.c11 {
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c11:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c3 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c3.c3 {
+  border-color: #d9d9d9;
+  background: #f7f7f7;
+  color: #cccccc;
+  cursor: not-allowed;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: none;
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -5047,63 +5201,24 @@ exports[`DatePicker demo -- range-disabled 1`] = `
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
+  color: #cccccc;
   pointer-events: none;
-  color: #bbb;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c1 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
+.c10 {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #0a1633;
 }
 
 .c9 {
-  box-sizing: border-box;
-  position: relative;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 12px;
-  color: #0a1633;
-  background-color: #fff;
-}
-
-.c9 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c9 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c8 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -5113,48 +5228,49 @@ exports[`DatePicker demo -- range-disabled 1`] = `
 }
 
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
   pointer-events: none;
   background: #f7f7f7;
-  border-color: #d9d9d9;
-  border-width: 1px;
-  color: #bbb;
+  border: 1px solid #cccccc;
+  color: #cccccc;
   box-shadow: none;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c10 {
-  border: 0 solid #c3cad9;
+.c6 .c7 {
+  background: #c3cad9;
+}
+
+.c12 {
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
-.c10:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+.c12:hover {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -5176,9 +5292,10 @@ exports[`DatePicker demo -- range-disabled 1`] = `
         disabled=""
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border uc-fe-button-disabled c3"
             disabled=""
+            type="button"
           >
             <div>
               自定义
@@ -5186,7 +5303,7 @@ exports[`DatePicker demo -- range-disabled 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5197,13 +5314,13 @@ exports[`DatePicker demo -- range-disabled 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c5"
+          class="uc-fe-icon icon__calendar c9 c5"
           color="blue"
         />
       </div>
@@ -5216,11 +5333,12 @@ exports[`DatePicker demo -- range-disabled 1`] = `
       class="uc-fe-datepicker-range "
     >
       <div
-        class="c0 c9"
+        class="c0 c10"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c11"
+            type="button"
           >
             <div>
               自定义
@@ -5228,23 +5346,23 @@ exports[`DatePicker demo -- range-disabled 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
-        class="uc-fe-datepicker-range-date-wrap c10"
+        class="uc-fe-datepicker-range-date-wrap c12"
       >
         <span>
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c5"
+          class="uc-fe-icon icon__calendar c9 c5"
           color="blue"
         />
       </div>
@@ -5259,11 +5377,39 @@ exports[`DatePicker demo -- range-display 1`] = `
 }
 
 .c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -5273,53 +5419,16 @@ exports[`DatePicker demo -- range-display 1`] = `
   margin-top: -6px;
 }
 
-.c9 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c9 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c8 {
+.c9 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -5328,25 +5437,28 @@ exports[`DatePicker demo -- range-display 1`] = `
   margin-right: 8px;
 }
 
+.c10 .c7 {
+  background: #c3cad9;
+}
+
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -5366,8 +5478,9 @@ exports[`DatePicker demo -- range-display 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -5375,7 +5488,7 @@ exports[`DatePicker demo -- range-display 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5385,13 +5498,13 @@ exports[`DatePicker demo -- range-display 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c5"
+          class="uc-fe-icon icon__calendar c9 c5"
           color="blue"
         />
       </div>
@@ -5407,8 +5520,9 @@ exports[`DatePicker demo -- range-display 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -5416,7 +5530,7 @@ exports[`DatePicker demo -- range-display 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5426,13 +5540,13 @@ exports[`DatePicker demo -- range-display 1`] = `
           18-07-21 07:55
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           18-07-21 07:55
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c5"
+          class="uc-fe-icon icon__calendar c9 c5"
           color="blue"
         />
       </div>
@@ -5442,99 +5556,93 @@ exports[`DatePicker demo -- range-display 1`] = `
 `;
 
 exports[`DatePicker demo -- range-hideOptions 1`] = `
-.c3 {
+.c4 {
   vertical-align: baseline;
 }
 
-.c7 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+.c8 {
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
 }
 
-.c8 {
+.c8:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c7 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
+}
+
+.c9 {
   position: absolute;
   right: 8px;
   top: 50%;
   margin-top: -6px;
 }
 
-.c9 .c6 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c9 .c6:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 .c6 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
-.c5 {
+.c6 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c5 .c6 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c5 .c6:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c2 {
+.c3 {
   margin-left: 5px;
   display: inline-block;
 }
 
-.c4 {
+.c5 {
   margin-right: 8px;
 }
 
+.c10 .c1 {
+  background: #c3cad9;
+}
+
 .c0 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c0:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c1 {
+.c2 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -5557,13 +5665,13 @@ exports[`DatePicker demo -- range-hideOptions 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c1"
+          class="c1 c2"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c2 c3"
+          class="uc-fe-icon icon__calendar c3 c4"
           color="blue"
         />
       </div>
@@ -5576,19 +5684,20 @@ exports[`DatePicker demo -- range-hideOptions 1`] = `
       class="uc-fe-datepicker-range "
     >
       <div
-        class="c4 c5"
+        class="c5 c6"
       >
         <div>
-          <div
-            class="c6 c7"
+          <button
+            class="c7 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c8"
+            type="button"
           >
             <div>
               自定义
             </div>
             <i
-              class="uc-fe-icon icon__down c8 c3"
+              class="uc-fe-icon icon__down c9 c4"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5598,13 +5707,13 @@ exports[`DatePicker demo -- range-hideOptions 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c1"
+          class="c1 c2"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c2 c3"
+          class="uc-fe-icon icon__calendar c3 c4"
           color="blue"
         />
       </div>
@@ -5619,11 +5728,39 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
 }
 
 .c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -5633,53 +5770,16 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
   margin-top: -6px;
 }
 
-.c10 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c10 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c10 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 {
+.c10 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -5688,16 +5788,19 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
   margin-right: 8px;
 }
 
+.c11 .c7 {
+  background: #c3cad9;
+}
+
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
   pointer-events: none;
@@ -5707,14 +5810,14 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c6 .c8 {
+.c6 .c9 {
   display: none;
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -5734,8 +5837,9 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               二小时后
@@ -5743,7 +5847,7 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5753,13 +5857,13 @@ exports[`DatePicker demo -- range-onInitialChange 1`] = `
           Invalid date
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           Invalid date
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -5774,11 +5878,39 @@ exports[`DatePicker demo -- range-options 1`] = `
 }
 
 .c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -5788,53 +5920,16 @@ exports[`DatePicker demo -- range-options 1`] = `
   margin-top: -6px;
 }
 
-.c10 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c10 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c10 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 {
+.c10 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -5843,29 +5938,32 @@ exports[`DatePicker demo -- range-options 1`] = `
   margin-right: 8px;
 }
 
+.c11 .c7 {
+  background: #c3cad9;
+}
+
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c11 .c8 {
+.c12 .c9 {
   display: none;
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -5885,8 +5983,9 @@ exports[`DatePicker demo -- range-options 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -5894,7 +5993,7 @@ exports[`DatePicker demo -- range-options 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -5904,13 +6003,13 @@ exports[`DatePicker demo -- range-options 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -5937,19 +6036,17 @@ exports[`DatePicker demo -- range-popoverprops 1`] = `
   height: 28px;
   padding: 0 8px;
   color: #0a1633;
-  background: #fff;
-  border-color: #c3cad9;
+  background: #ffffff;
   border: none;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
   transition: all .22s cubic-bezier(.4,0,.2,1);
 }
 
 .c0:hover {
-  color: #3555f6;
-  background: #fff;
-  border-color: #4683e6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 <div>
@@ -5984,11 +6081,39 @@ exports[`DatePicker demo -- range-rules 1`] = `
 }
 
 .c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -5998,53 +6123,16 @@ exports[`DatePicker demo -- range-rules 1`] = `
   margin-top: -6px;
 }
 
-.c10 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c10 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c10 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 {
+.c10 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -6053,29 +6141,32 @@ exports[`DatePicker demo -- range-rules 1`] = `
   margin-right: 8px;
 }
 
+.c11 .c7 {
+  background: #c3cad9;
+}
+
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c11 .c8 {
+.c12 .c9 {
   display: none;
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -6095,8 +6186,9 @@ exports[`DatePicker demo -- range-rules 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -6104,7 +6196,7 @@ exports[`DatePicker demo -- range-rules 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -6114,13 +6206,13 @@ exports[`DatePicker demo -- range-rules 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6134,12 +6226,100 @@ exports[`DatePicker demo -- range-size 1`] = `
   vertical-align: baseline;
 }
 
-.c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+.c11 {
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c11:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c3 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c13 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  padding: 0 12px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c13:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -6149,103 +6329,16 @@ exports[`DatePicker demo -- range-size 1`] = `
   margin-top: -6px;
 }
 
-.c14 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c14 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c14 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
-.c10 {
-  box-sizing: border-box;
-  position: relative;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 12px;
-  color: #0a1633;
-  background-color: #fff;
-}
-
-.c10 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c10 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 24px;
-  line-height: 24px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c12 {
-  box-sizing: border-box;
-  position: relative;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 12px;
-  color: #0a1633;
-  background-color: #fff;
-}
-
-.c12 .c2 {
-  height: 32px;
-  line-height: 32px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c12 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 {
+.c10 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -6254,65 +6347,66 @@ exports[`DatePicker demo -- range-size 1`] = `
   margin-right: 8px;
 }
 
-.c11 {
-  border: 0 solid #c3cad9;
+.c15 .c7 {
+  background: #c3cad9;
+}
+
+.c12 {
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
-.c11:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+.c12:hover {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c15 .c8 {
+.c16 .c9 {
   display: none;
 }
 
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 24px;
   line-height: 22px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c13 {
-  border: 0 solid #c3cad9;
+.c14 {
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 32px;
   line-height: 30px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
-.c13:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+.c14:hover {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -6332,8 +6426,9 @@ exports[`DatePicker demo -- range-size 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-sm uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -6341,7 +6436,7 @@ exports[`DatePicker demo -- range-size 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -6351,13 +6446,13 @@ exports[`DatePicker demo -- range-size 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6370,11 +6465,12 @@ exports[`DatePicker demo -- range-size 1`] = `
       class="uc-fe-datepicker-range "
     >
       <div
-        class="c0 c10"
+        class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c11"
+            type="button"
           >
             <div>
               自定义
@@ -6382,23 +6478,23 @@ exports[`DatePicker demo -- range-size 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
-        class="uc-fe-datepicker-range-date-wrap c11"
+        class="uc-fe-datepicker-range-date-wrap c12"
       >
         <span>
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6411,11 +6507,12 @@ exports[`DatePicker demo -- range-size 1`] = `
       class="uc-fe-datepicker-range "
     >
       <div
-        class="c0 c12"
+        class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-lg uc-fe-button-styletype-border c13"
+            type="button"
           >
             <div>
               自定义
@@ -6423,23 +6520,23 @@ exports[`DatePicker demo -- range-size 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
-        class="uc-fe-datepicker-range-date-wrap c13"
+        class="uc-fe-datepicker-range-date-wrap c14"
       >
         <span>
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6454,11 +6551,39 @@ exports[`DatePicker demo -- range-type 1`] = `
 }
 
 .c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -6468,81 +6593,16 @@ exports[`DatePicker demo -- range-type 1`] = `
   margin-top: -6px;
 }
 
-.c10 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c10 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c10 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c11 .c2 {
-  height: 24px;
-  line-height: 24px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c11 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c12 .c2 {
-  height: 32px;
-  line-height: 32px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c12 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 {
+.c10 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -6551,29 +6611,32 @@ exports[`DatePicker demo -- range-type 1`] = `
   margin-right: 8px;
 }
 
+.c11 .c7 {
+  background: #c3cad9;
+}
+
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c13 .c8 {
+.c12 .c9 {
   display: none;
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -6593,8 +6656,9 @@ exports[`DatePicker demo -- range-type 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -6602,7 +6666,7 @@ exports[`DatePicker demo -- range-type 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -6612,13 +6676,13 @@ exports[`DatePicker demo -- range-type 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6634,8 +6698,9 @@ exports[`DatePicker demo -- range-type 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -6643,7 +6708,7 @@ exports[`DatePicker demo -- range-type 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -6653,13 +6718,13 @@ exports[`DatePicker demo -- range-type 1`] = `
           2018-07
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6674,11 +6739,39 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
 }
 
 .c3 {
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 0 8px;
-  padding-right: 28px;
+  margin: 0;
   box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  padding: 0 8px;
+  color: #0a1633;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
+  transition: all .22s cubic-bezier(.4,0,.2,1);
+}
+
+.c3:hover {
+  color: #3860f4;
+  background: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
+}
+
+.c2 {
+  padding-right: 28px;
+  width: 100%;
+  text-align: left;
 }
 
 .c4 {
@@ -6688,81 +6781,16 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
   margin-top: -6px;
 }
 
-.c10 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c10 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c10 .c2 {
-  background: #f7f7f7;
-  border-color: #d9d9d9;
-  box-shadow: none;
-  border-style: solid;
-}
-
 .c1 {
   box-sizing: border-box;
   position: relative;
-  font-size: 12px;
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
   color: #0a1633;
-  background-color: #fff;
 }
 
-.c1 .c2 {
-  height: 28px;
-  line-height: 28px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c1 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c11 .c2 {
-  height: 24px;
-  line-height: 24px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c11 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c12 .c2 {
-  height: 32px;
-  line-height: 32px;
-  border: 1px none #c3cad9;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
-  -webkit-transition: all .22s cubic-bezier(.4,0,.2,1);
-  transition: all .22s cubic-bezier(.4,0,.2,1);
-}
-
-.c12 .c2:hover {
-  border-color: #3555f6;
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
-}
-
-.c9 {
+.c10 {
   margin-left: 5px;
   display: inline-block;
 }
@@ -6771,29 +6799,32 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
   margin-right: 8px;
 }
 
+.c11 .c7 {
+  background: #c3cad9;
+}
+
 .c6 {
-  border: 0 solid #c3cad9;
   padding: 0 8px;
   border-radius: 2px;
   cursor: pointer;
   box-sizing: border-box;
   height: 28px;
   line-height: 26px;
-  color: #6b798e;
-  box-shadow: 0 -1px 0 0 rgba(223,224,241,0.5),0 1px 0 0 rgba(223,224,241,.3),0 1px 1px 0 rgba(162,166,191,.5),0 2px 4px 0 rgba(228,229,242,.6);
+  color: #0a1633;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   display: inline-block;
   vertical-align: middle;
 }
 
 .c6:hover {
-  box-shadow: 0 1px 10px 0 rgba(162,166,191,.12),0 2px 4px -1px rgba(162,166,191,.2),0 4px 5px 0 rgba(162,166,191,.14);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
-.c13 .c8 {
+.c12 .c9 {
   display: none;
 }
 
-.c7 {
+.c8 {
   margin: 0 4px;
   width: 12px;
   height: 1px;
@@ -6813,8 +6844,9 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -6822,7 +6854,7 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -6832,13 +6864,13 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>
@@ -6854,8 +6886,9 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
         class="c0 c1"
       >
         <div>
-          <div
-            class="c2 c3"
+          <button
+            class="c2 uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-border c3"
+            type="button"
           >
             <div>
               自定义
@@ -6863,7 +6896,7 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
             <i
               class="uc-fe-icon icon__down c4 c5"
             />
-          </div>
+          </button>
         </div>
       </div>
       <div
@@ -6873,13 +6906,13 @@ exports[`DatePicker demo -- range-uncontrolled 1`] = `
           2018-07-21 19:55:21
         </span>
         <span
-          class="c7"
+          class="c7 c8"
         />
         <span>
           2018-07-21 19:55:21
         </span>
         <i
-          class="uc-fe-icon icon__calendar c8 c9 c5"
+          class="uc-fe-icon icon__calendar c9 c10 c5"
           color="blue"
         />
       </div>

@@ -2,6 +2,109 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.8"></a>
+
+## [0.6.8](https://github.com/UCloud-FE/react-components/compare/v0.6.7...v0.6.8) (2020-04-14)
+
+### Features
+
+*   **DesignTokens:** update designTokens for remark ([65f00fa](https://github.com/UCloud-FE/react-components/commit/65f00fa))
+*   **Style:** normalize placeholder opacity ([d7b36bc](https://github.com/UCloud-FE/react-components/commit/d7b36bc))
+*   **Theme:** change color of T_COLOR_TEXT_REMARK_LIGHT ([e8a4aa9](https://github.com/UCloud-FE/react-components/commit/e8a4aa9))
+
+<a name="0.6.7"></a>
+
+## [0.6.7](https://github.com/UCloud-FE/react-components/compare/v0.6.6...v0.6.7) (2020-04-01)
+
+### Bug Fixes
+
+*   **Input:** fix input placeholder color when disable ([a80ebcd](https://github.com/UCloud-FE/react-components/commit/a80ebcd)), closes [#210](https://github.com/UCloud-FE/react-components/issues/210)
+*   **Slider:** fix slider bug when key props change ([83f6595](https://github.com/UCloud-FE/react-components/commit/83f6595)), closes [#211](https://github.com/UCloud-FE/react-components/issues/211)
+
+<a name="0.6.6"></a>
+
+## [0.6.6](https://github.com/UCloud-FE/react-components/compare/v0.6.5...v0.6.6) (2020-03-25)
+
+### Features
+
+*   **Table:** change table tip notice to default ([413e008](https://github.com/UCloud-FE/react-components/commit/413e008)), closes [#208](https://github.com/UCloud-FE/react-components/issues/208)
+*   **Tooltip:** add arrow props to hide arrow ([a2d62c7](https://github.com/UCloud-FE/react-components/commit/a2d62c7)), closes [#207](https://github.com/UCloud-FE/react-components/issues/207)
+
+<a name="0.6.5"></a>
+
+## [0.6.5](https://github.com/UCloud-FE/react-components/compare/v0.6.4...v0.6.5) (2020-03-16)
+
+### Bug Fixes
+
+*   **DatePicker:** change month wrapper width to 240 ([79f588e](https://github.com/UCloud-FE/react-components/commit/79f588e)), closes [#206](https://github.com/UCloud-FE/react-components/issues/206)
+
+<a name="0.6.4"></a>
+
+## [0.6.4](https://github.com/UCloud-FE/react-components/compare/v0.6.3...v0.6.4) (2020-03-02)
+
+### Bug Fixes
+
+*   **Calendar:** remove moment locale in calendar ([54e48ff](https://github.com/UCloud-FE/react-components/commit/54e48ff)), closes [#205](https://github.com/UCloud-FE/react-components/issues/205)
+
+<a name="0.6.3"></a>
+
+## [0.6.3](https://github.com/UCloud-FE/react-components/compare/v0.6.2...v0.6.3) (2020-02-28)
+
+### Bug Fixes
+
+*   **Modal:** fix modal hide-mask style ([1e938dd](https://github.com/UCloud-FE/react-components/commit/1e938dd)), closes [#203](https://github.com/UCloud-FE/react-components/issues/203)
+
+### Features
+
+*   **ThemeProvider:** add designtokens to loading,drawer,tabs ([33acc32](https://github.com/UCloud-FE/react-components/commit/33acc32)), closes [#204](https://github.com/UCloud-FE/react-components/issues/204)
+
+<a name="0.6.2"></a>
+
+## [0.6.2](https://github.com/UCloud-FE/react-components/compare/v0.6.1...v0.6.2) (2020-02-26)
+
+### Bug Fixes
+
+*   **Select:** fix selector styles ([7c2d063](https://github.com/UCloud-FE/react-components/commit/7c2d063)), closes [#202](https://github.com/UCloud-FE/react-components/issues/202)
+
+<a name="0.6.1"></a>
+
+## [0.6.1](https://github.com/UCloud-FE/react-components/compare/v0.6.0...v0.6.1) (2020-02-25)
+
+### Features
+
+*   **ThemeProvider:** move to designTokens for most components ([d054e01](https://github.com/UCloud-FE/react-components/commit/d054e01)), closes [#201](https://github.com/UCloud-FE/react-components/issues/201)
+
+<a name="0.6.0"></a>
+
+# [0.6.0](https://github.com/UCloud-FE/react-components/compare/v0.5.23...v0.6.0) (2020-02-20)
+
+### Features
+
+*   **ThemeProvider:** change theme to designTokens ([37686fd](https://github.com/UCloud-FE/react-components/commit/37686fd)), closes [#200](https://github.com/UCloud-FE/react-components/issues/200)
+
+<a name="0.5.23"></a>
+
+## [0.5.23](https://github.com/UCloud-FE/react-components/compare/v0.5.22...v0.5.23) (2020-01-20)
+
+### Features
+
+*   **Table:** add cable for table child td ([ec07d11](https://github.com/UCloud-FE/react-components/commit/ec07d11)), closes [#198](https://github.com/UCloud-FE/react-components/issues/198)
+*   **Table:** optimize ActionList disabled item ([13d2d72](https://github.com/UCloud-FE/react-components/commit/13d2d72)), closes [#197](https://github.com/UCloud-FE/react-components/issues/197)
+
+<a name="0.5.22"></a>
+
+## [0.5.22](https://github.com/UCloud-FE/react-components/compare/v0.5.21...v0.5.22) (2020-01-16)
+
+### Bug Fixes
+
+*   **NumberInput:** fix border when hideHandler ([7c1d626](https://github.com/UCloud-FE/react-components/commit/7c1d626)), closes [#193](https://github.com/UCloud-FE/react-components/issues/193)
+
+### Features
+
+*   **Menu:** remove pointer-event:none of menu item ([d40db99](https://github.com/UCloud-FE/react-components/commit/d40db99)), closes [#196](https://github.com/UCloud-FE/react-components/issues/196)
+*   **Table:** add columnPlaceholder ([d9dbfa1](https://github.com/UCloud-FE/react-components/commit/d9dbfa1)), closes [#194](https://github.com/UCloud-FE/react-components/issues/194)
+*   **Tabs:** remove point-event:none in disabled tab ([094fcf5](https://github.com/UCloud-FE/react-components/commit/094fcf5)), closes [#195](https://github.com/UCloud-FE/react-components/issues/195)
+
 <a name="0.5.21"></a>
 
 ## [0.5.21](https://github.com/UCloud-FE/react-components/compare/v0.5.20...v0.5.21) (2019-12-16)

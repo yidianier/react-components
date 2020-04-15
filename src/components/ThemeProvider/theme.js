@@ -1,12 +1,8 @@
 import _ from 'lodash';
 
-import Tabs from 'src/components/Tabs/style/theme';
-import Button from 'src/components/Button/style/theme';
-import Menu from 'src/components/Menu/style/theme';
-import Switch from 'src/components/Switch/style/theme';
-import Tooltip from 'src/components/Tooltip/style/theme';
-
 import { generateColorTheme, defaultColorList, TColorList, TColorMap } from './color';
+
+import { designTokens } from './designTokens';
 
 const defaultSizeTheme = {
     // default font-size
@@ -44,13 +40,7 @@ const defaultMaterialVars = {
     transitionFlat: '.16s cubic-bezier(.4,0,.2,1)'
 };
 
-const componentThemeGeneratorMap = {
-    Button,
-    Tabs,
-    Menu,
-    Switch,
-    Tooltip
-};
+const componentThemeGeneratorMap = {};
 
 export const extend = (source, target) => {
     const cloneSource = JSON.parse(JSON.stringify(source));
@@ -68,6 +58,7 @@ export const extend = (source, target) => {
 };
 
 export const generateTheme = (originTheme = {}) => {
+    const { designTokens: originDesignTokens } = originTheme;
     const { colorList, colorMap } = generateColorTheme(originTheme.colorList);
     const sizeTheme = _.pick(originTheme, ['fontSize', 'titleFontSize', 'Height', 'Padding']);
     const materialVars = {
@@ -82,7 +73,11 @@ export const generateTheme = (originTheme = {}) => {
         TColorMap,
         ...defaultSizeTheme,
         ...sizeTheme,
-        materialVars
+        materialVars,
+        designTokens: {
+            ...designTokens,
+            ...originDesignTokens
+        }
     };
     theme.HeightNumber = _.mapValues(theme.Height, v => +v.replace('px', ''));
     theme.PaddingNumber = _.mapValues(theme.Padding, v => +v.replace('px', ''));

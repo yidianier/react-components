@@ -114,13 +114,18 @@ exports[`Grid demo -- col 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c9:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c16 {
@@ -129,16 +134,22 @@ exports[`Grid demo -- col 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
   cursor: not-allowed;
   pointer-events: none;
-  color: #bbb;
+  color: #cccccc;
+  border-color: #c3cad9;
+}
+
+.c16:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c7 {
@@ -147,9 +158,9 @@ exports[`Grid demo -- col 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -162,19 +173,23 @@ exports[`Grid demo -- col 1`] = `
 }
 
 .c7 .c14::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c14::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c14:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7 .c14::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c7:hover {
@@ -182,7 +197,7 @@ exports[`Grid demo -- col 1`] = `
 }
 
 .c7 .c12 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -210,7 +225,7 @@ exports[`Grid demo -- col 1`] = `
 
 .c7 .c8:hover,
 .c7 .c11:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c7 .c8 {
@@ -222,7 +237,7 @@ exports[`Grid demo -- col 1`] = `
 .c7 .c11 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c3 {
@@ -1372,13 +1387,18 @@ exports[`Grid demo -- row 1`] = `
   text-align: center;
   border-radius: 2px;
   border-style: solid;
-  color: inherit;
   cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 #e4e5f2,0 1px 1px 0 rgba(162,166,191,0.32),0 1px 0 0 rgba(223,224,241,0.7);
+  color: #0a1633;
+  border-color: #d2d6ea;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
-  border-color: #c3cad9;
+}
+
+.c26:hover {
+  color: #3860f4;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c24 {
@@ -1387,9 +1407,9 @@ exports[`Grid demo -- row 1`] = `
   border-radius: 2px;
   display: inline-block;
   vertical-align: middle;
-  color: #6b798e;
+  color: #0a1633;
   height: 28px;
-  border: 1px solid #dfe0f1;
+  border: 1px solid #d2d6ea;
   padding-right: 22px;
   border-right-width: 0;
 }
@@ -1402,19 +1422,23 @@ exports[`Grid demo -- row 1`] = `
 }
 
 .c24 .c30::-webkit-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24 .c30::-moz-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24 .c30:-ms-input-placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24 .c30::placeholder {
-  color: #abb4c3;
+  opacity: 1;
+  color: rgba(10,22,51,0.20);
 }
 
 .c24:hover {
@@ -1422,7 +1446,7 @@ exports[`Grid demo -- row 1`] = `
 }
 
 .c24 .c28 {
-  box-shadow: inset 0 1px 3px 0 #dedeef,inset 0 0px 2px 0 #f6f6fb;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
   background: #fafafc;
 }
 
@@ -1450,7 +1474,7 @@ exports[`Grid demo -- row 1`] = `
 
 .c24 .c25:hover,
 .c24 .c27:hover {
-  color: #3555f6;
+  color: #3860f4;
 }
 
 .c24 .c25 {
@@ -1462,7 +1486,7 @@ exports[`Grid demo -- row 1`] = `
 .c24 .c27 {
   border-width: 1px 0 0 1px;
   bottom: 0;
-  border-top-color: #e8e9f5;
+  border-top-color: #c3cad9;
 }
 
 .c3 {
@@ -1485,7 +1509,7 @@ exports[`Grid demo -- row 1`] = `
 }
 
 .c19 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -1493,14 +1517,19 @@ exports[`Grid demo -- row 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+  color: #0a1633;
 }
 
 .c19 .c20 {
-  color: #3555f6;
+  color: #c3cad9;
+}
+
+.c19 .c20 {
+  color: #3860f4;
 }
 
 .c23 {
-  color: #6b798e;
+  color: #526075;
   font-size: 12px;
   position: relative;
   cursor: pointer;
@@ -1508,6 +1537,18 @@ exports[`Grid demo -- row 1`] = `
   vertical-align: middle;
   height: 28px;
   line-height: 28px;
+}
+
+.c23 .c20 {
+  color: #c3cad9;
+}
+
+.c23:hover {
+  color: #0a1633;
+}
+
+.c23:hover .c20 {
+  color: #3357df;
 }
 
 .c17 {
@@ -1516,13 +1557,13 @@ exports[`Grid demo -- row 1`] = `
 }
 
 .c17 .c18,
-.c17 .style__RadioTagWrap-sc-25j3mq-3 {
+.c17 .sc-EHOje {
   margin-right: 8px;
   margin-bottom: 8px;
 }
 
 .c17 .c18:last-child,
-.c17 .style__RadioTagWrap-sc-25j3mq-3:last-child {
+.c17 .sc-EHOje:last-child {
   margin-right: 0;
 }
 
@@ -1596,14 +1637,13 @@ exports[`Grid demo -- row 1`] = `
 .c7 {
   position: relative;
   border-radius: 2px;
-  overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: inline-block;
   vertical-align: middle;
-  background: #fff;
+  background: #ffffff;
   height: 28px;
   width: 80px;
   padding: 4px;
@@ -1613,27 +1653,31 @@ exports[`Grid demo -- row 1`] = `
 }
 
 .c7:hover {
-  border-color: #3555f6;
+  border-color: #3357df;
+}
+
+.c7:hover .c13 {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05);
 }
 
 .c7 .c13 {
-  background-color: #fff;
-  box-shadow: 0 0.5px 0.5px #c3cad9;
-  border: 1px solid #c3cad9;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08),0 1px 1px -1px rgba(0,0,0,0.30),0 1px 3px -1px rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.05);
   width: 20px;
   height: 20px;
 }
 
 .c7 .c15 {
-  background-color: #e69b9b;
+  background: #f44336;
   left: 13px;
   height: 10px;
 }
 
 .c7 .c8 {
-  border: 1px solid #c3cad9;
-  background-color: #ebedf0;
-  color: #6b798e;
+  color: #526075;
+  border: 1px solid #d2d6ea;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  background: #f6f6fb;
 }
 
 .c7 .c10,

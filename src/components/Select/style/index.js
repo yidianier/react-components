@@ -4,6 +4,7 @@ import addDefaultThemeProps from 'src/components/ThemeProvider/addDefaultThemePr
 import Input from 'src/components/Input';
 import Icon from 'src/components/Icon';
 import Menu from 'src/components/Menu';
+import Button from 'src/components/Button';
 import { inlineBlockWithVerticalMixin } from 'src/style';
 
 export const SelectSearchInput = styled(Input.Search)`
@@ -13,12 +14,10 @@ export const SelectSearchInput = styled(Input.Search)`
     margin-top: 10px;
 `;
 
-export const Selector = styled.div`
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 0 8px;
+export const Selector = styled(Button)`
     padding-right: 28px;
-    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
 `;
 
 export const Arrow = styled(Icon)`
@@ -35,11 +34,10 @@ export const OptionWrap = styled(Menu.Item)`
         `};
 `;
 export const MenuWrap = styled.div(
-    ({ theme: { colorMap, materialVars } }) => css`
-        background: ${colorMap.default.background};
-        border: 1px none ${colorMap.default.border};
-        box-shadow: ${materialVars.whiteBoxShadowActive};
-        border-radius: 2px;
+    ({ theme: { designTokens: DT } }) => css`
+        box-shadow: ${DT.T_SHADOW_BLOCK_DEFAULT_LG};
+        background: ${DT.T_COLOR_BG_MENU};
+        border-radius: ${DT.T_CORNER_SM};
         display: inline-block;
     `
 );
@@ -50,54 +48,25 @@ export const BlockMenu = styled(Menu)(
         border: none;
         max-height: 380px;
         max-width: unset;
-        box-shadow: none;
     `
 );
 
 /* stylelint-disable no-duplicate-selectors */
-const propsMixin = ({
-    theme: { colorMap, colorList, Height, fontSize, materialVars, Select: selectTheme = {} },
-    size,
-    disabled
-}) => css`
-    font-size: ${fontSize};
-    color: ${colorList.black};
-    background-color: ${colorMap.default.background};
-
-    ${Selector} {
-        height: ${Height[size]};
-        line-height: ${Height[size]};
-        border: 1px none ${colorMap.default.border};
-        box-shadow: ${materialVars.whiteBoxShadow};
-        transition: all ${materialVars.transitionUp};
-
-        &:hover {
-            border-color: ${colorMap.active.border};
-            box-shadow: ${materialVars.whiteBoxShadowActive};
-        }
-    }
+const propsMixin = ({ theme: { designTokens: DT }, disabled }) => css`
+    font-size: ${DT.T_TYPO_FONT_SIZE_1};
+    color: ${DT.T_COLOR_TEXT_DEFAULT_DARK};
 
     ${disabled &&
         css`
+            color: ${DT.T_COLOR_TEXT_DISABLED};
             pointer-events: none;
-            color: ${colorMap.disabled.text};
-
-            ${Selector} {
-                background: ${colorMap.disabled.background};
-                border-color: ${colorMap.disabled.border};
-                box-shadow: none;
-                border-style: solid;
-            }
         `};
-
-    ${selectTheme['&']};
 `;
 /* stylelint-enable no-duplicate-selectors */
 
 export const SelectWrap = styled.div`
     box-sizing: border-box;
     position: relative;
-    font-size: 12px;
 
     ${inlineBlockWithVerticalMixin};
     ${propsMixin};

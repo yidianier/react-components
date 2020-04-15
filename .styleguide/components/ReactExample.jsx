@@ -7,6 +7,7 @@ import splitExampleCode from 'react-styleguidist/lib/utils/splitExampleCode';
 import ThemeProvider from 'src/components/ThemeProvider';
 import greenTheme from 'src/components/ThemeProvider/green';
 import oceanTheme from 'src/components/ThemeProvider/ocean';
+import darkTheme from 'src/components/ThemeProvider/dark';
 
 /* eslint-disable no-invalid-this, react/no-multi-comp */
 
@@ -34,17 +35,20 @@ class StateHolder extends Component {
 export const themeList = {
     blue: {},
     green: greenTheme,
-    ocean: oceanTheme
+    ocean: oceanTheme,
+    dark: darkTheme
 };
 
 export const themeColor = {
     blue: '#3555f6',
     green: greenTheme.colorList.primary,
-    ocean: oceanTheme.colorList.primary
+    ocean: oceanTheme.colorList.primary,
+    dark: '#111727'
 };
 
 let defaultThemeType = 'blue';
 export const changeTheme = themeType => {
+    defaultThemeType = themeType;
     _.each(themeListeners, listener => {
         listener(themeType);
     });
@@ -123,18 +127,13 @@ export default class ReactExample extends Component {
         const { head, example } = splitExampleCode(compiledCode);
         const initialState = this.getExampleInitialState(head);
         const exampleComponent = this.getExampleComponent(example);
-        const wrappedComponent =
-            theme === 'blue' ? (
+        const wrappedComponent = (
+            <ThemeProvider theme={themeList[theme]}>
                 <Wrapper onError={this.props.onError}>
                     <StateHolder component={exampleComponent} initialState={initialState} />
                 </Wrapper>
-            ) : (
-                <ThemeProvider theme={themeList[theme]}>
-                    <Wrapper onError={this.props.onError}>
-                        <StateHolder component={exampleComponent} initialState={initialState} />
-                    </Wrapper>
-                </ThemeProvider>
-            );
+            </ThemeProvider>
+        );
         return wrappedComponent;
     }
 }
